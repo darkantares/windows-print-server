@@ -1,3 +1,4 @@
+using System.Drawing.Printing;
 using System.Management;
 using LocalPrintService.Domain.Contracts;
 using LocalPrintService.Domain.Entities;
@@ -117,7 +118,7 @@ public sealed class WindowsPrinterManager : IPrinterManager
                 IsDefault = defaultPrinter,
                 IsAvailable = status == PrinterStatus.Ready,
                 Capabilities = caps,
-                SupportedPaperSizes = GetPaperSizes(obj),
+                SupportedPaperSizes = GetPaperSizes(name),
                 SupportedResolutions = GetResolutions(obj)
             };
         }
@@ -169,18 +170,17 @@ public sealed class WindowsPrinterManager : IPrinterManager
         return caps;
     }
 
-    private static string[] GetPaperSizes(ManagementObject obj)
+    private static string[] GetPaperSizes(string printerName)
     {
         try
         {
-            var paperSizes = obj["PaperSizesSupported"];
-            if (paperSizes is null)
-                return [];
+            var settings = new PrinterSettings();
+            settings.PrinterName = printerName;
 
             var sizes = new List<string>();
-            foreach (var size in (object[])paperSizes)
+            foreach (PaperSize paperSize in settings.PaperSizes)
             {
-                sizes.Add(size.ToString() ?? string.Empty);
+                sizes.Add($"{paperSize.PaperName} ({paperSize.Width}x{paperSize.Height})");
             }
             return sizes.ToArray();
         }

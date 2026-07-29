@@ -22,7 +22,7 @@ builder.Services.AddInfrastructureServices();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowLocal", policy =>
+    options.AddPolicy("AllowLocalhost", policy =>
     {
         policy.AllowAnyOrigin()
             .AllowAnyHeader()
@@ -55,7 +55,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseMiddleware<RequestLoggingMiddleware>();
 
-app.UseCors("AllowLocal");
+app.UseCors("AllowLocalhost");
 
 app.MapPrinterEndpoints();
 app.MapJobEndpoints();

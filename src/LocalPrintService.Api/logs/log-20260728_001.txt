@@ -200,3 +200,61 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5200: address 
 2026-07-28 19:53:13.038 -04:00 [INF] [PrintEngine] PDF text copy 1/1
 2026-07-28 19:53:13.065 -04:00 [INF] [PrintEngine] Job "0d911781-a309-42d9-b2f8-a96366a2a52c" (PDF) DONE in 31ms
 2026-07-28 19:53:13.065 -04:00 [INF] Job "0d911781-a309-42d9-b2f8-a96366a2a52c" completed in 32.7941ms
+2026-07-28 20:38:48.787 -04:00 [DBG] Found 7 printers
+2026-07-28 20:38:48.802 -04:00 [INF] GET /api/printers responded 200 in 415ms
+2026-07-28 20:45:12.836 -04:00 [DBG] Found 7 printers
+2026-07-28 20:45:12.837 -04:00 [INF] GET /api/printers responded 200 in 242ms
+2026-07-28 21:15:06.998 -04:00 [DBG] Found 7 printers
+2026-07-28 21:15:06.998 -04:00 [INF] GET /api/printers responded 200 in 305ms
+2026-07-28 21:16:59.388 -04:00 [DBG] Job "0741f4a7-2d6e-4ffc-a567-82e510aade24" enqueued. Queue depth: 1
+2026-07-28 21:16:59.388 -04:00 [INF] Print job "0741f4a7-2d6e-4ffc-a567-82e510aade24" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 21:16:59.388 -04:00 [INF] POST /api/jobs responded 201 in 372ms
+2026-07-28 21:16:59.670 -04:00 [INF] Processing job "0741f4a7-2d6e-4ffc-a567-82e510aade24" for printer 'POS-58', type '"Pdf"'
+2026-07-28 21:16:59.670 -04:00 [INF] [PrintEngine] Job "0741f4a7-2d6e-4ffc-a567-82e510aade24": Type="Pdf", Printer=POS-58, DataSize=55914 bytes
+2026-07-28 21:16:59.673 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 21:16:59.674 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 21:16:59.674 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 21:16:59.681 -04:00 [INF] [PrintEngine] PDF text extracted: 609 chars
+2026-07-28 21:16:59.681 -04:00 [INF] [PrintEngine] PDF text content: 'TIENDAS DOMINICANAS\nRNC: 11111111111\nFACTURA ELECTRÓNICA DE VENTA\nNo. 11\nFecha: 2026-07-29 Hora: 09:16:58 p.m.\nCliente: CLIENTE GENÉRICO\nRNC/Cédula: 11111111111\nTeléfono: 8492608787\nForma de Pago: $10000.00\nEntrega: 2026-07-29 08:30\nDetalle Cant Precio Total\nnevera 1 10000.00 10000.00\nSubtotal: RD$ 10000.00\nDescuento: RD$ 0.00\nITBIS: RD$ 0.00\nTotal: RD$ 10000.00\nCantidad items: 1\nRESPONSABLE DE IVA\nRÉGIMEN FISCAL: ORDINARIO\nAUTORIZACIÓN NUMERACIÓN DE FACTURACIÓN\nRANGO: FT-1 A FT-2000\nVENCE: 18/6/2025\nSoftware TIENDAS DOMINICANAS Tiendas Dominicanas\nwww.sitioempresa.com\n[QR CODE]'
+2026-07-28 21:16:59.681 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 21:16:59.738 -04:00 [INF] [PrintEngine] Job "0741f4a7-2d6e-4ffc-a567-82e510aade24" (PDF) DONE in 64ms
+2026-07-28 21:16:59.738 -04:00 [INF] Job "0741f4a7-2d6e-4ffc-a567-82e510aade24" completed in 68.2261ms
+2026-07-28 21:51:57.666 -04:00 [DBG] Job "5fc107d5-eb53-45f0-958d-435b9c448d34" enqueued. Queue depth: 1
+2026-07-28 21:51:57.667 -04:00 [INF] Print job "5fc107d5-eb53-45f0-958d-435b9c448d34" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 21:51:57.667 -04:00 [INF] POST /api/jobs responded 201 in 539ms
+2026-07-28 21:51:58.106 -04:00 [INF] Processing job "5fc107d5-eb53-45f0-958d-435b9c448d34" for printer 'POS-58', type '"Pdf"'
+2026-07-28 21:51:58.106 -04:00 [INF] [PrintEngine] Job "5fc107d5-eb53-45f0-958d-435b9c448d34": Type="Pdf", Printer=POS-58, DataSize=7160 bytes
+2026-07-28 21:51:58.110 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 21:51:58.110 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 21:51:58.110 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 21:51:58.130 -04:00 [INF] [PrintEngine] PDF text extracted: 525 chars
+2026-07-28 21:51:58.130 -04:00 [INF] [PrintEngine] PDF text content: 'TIENDAS DOMINICANAS\nRNC: 11111111111\nFACTURA ELECTRONICA DE VENTA\nNo. 12\nFecha: 2026-07-29 Hora: 09:51:57 p.m.\nCliente: CLIENTE GENERICO\nRNC/Cedula: 11111111111\nTelefono: 8492608787\nForma de Pago: $10000.00\nDetalle Cant Precio Total\nnevera 1 10000.00 10000.00\nSubtotal: RD$ 10000.00\nDescuento: RD$ 0.00\nITBIS: RD$ 0.00\nTotal: RD$ 10000.00\nCantidad items: 1\nRESPONSABLE DE IVA\nREGIMEN FISCAL: ORDINARIO\nAUTORIZACION NUMERACION DE FACTURACION\nRANGO: xxxx\nVENCE: xxxx\nSoftware TIENDAS DOMINICANAS xxxx\nxxxx'
+2026-07-28 21:51:58.130 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 21:51:58.191 -04:00 [INF] [PrintEngine] Job "5fc107d5-eb53-45f0-958d-435b9c448d34" (PDF) DONE in 80ms
+2026-07-28 21:51:58.191 -04:00 [INF] Job "5fc107d5-eb53-45f0-958d-435b9c448d34" completed in 85.1146ms
+2026-07-28 22:01:20.541 -04:00 [DBG] Job "cf3c4941-d8d0-4df1-afe1-9be53d6d96cf" enqueued. Queue depth: 1
+2026-07-28 22:01:20.541 -04:00 [INF] Print job "cf3c4941-d8d0-4df1-afe1-9be53d6d96cf" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 22:01:20.541 -04:00 [INF] POST /api/jobs responded 201 in 401ms
+2026-07-28 22:01:21.018 -04:00 [INF] Processing job "cf3c4941-d8d0-4df1-afe1-9be53d6d96cf" for printer 'POS-58', type '"Pdf"'
+2026-07-28 22:01:21.018 -04:00 [INF] [PrintEngine] Job "cf3c4941-d8d0-4df1-afe1-9be53d6d96cf": Type="Pdf", Printer=POS-58, DataSize=7160 bytes
+2026-07-28 22:01:21.020 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 22:01:21.020 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 22:01:21.020 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 22:01:21.028 -04:00 [INF] [PrintEngine] PDF text extracted: 525 chars
+2026-07-28 22:01:21.028 -04:00 [INF] [PrintEngine] PDF text content: 'TIENDAS DOMINICANAS\nRNC: 11111111111\nFACTURA ELECTRONICA DE VENTA\nNo. 13\nFecha: 2026-07-29 Hora: 10:01:20 p.m.\nCliente: CLIENTE GENERICO\nRNC/Cedula: 11111111111\nTelefono: 8492608787\nForma de Pago: $10000.00\nDetalle Cant Precio Total\nnevera 1 10000.00 10000.00\nSubtotal: RD$ 10000.00\nDescuento: RD$ 0.00\nITBIS: RD$ 0.00\nTotal: RD$ 10000.00\nCantidad items: 1\nRESPONSABLE DE IVA\nREGIMEN FISCAL: ORDINARIO\nAUTORIZACION NUMERACION DE FACTURACION\nRANGO: xxxx\nVENCE: xxxx\nSoftware TIENDAS DOMINICANAS xxxx\nxxxx'
+2026-07-28 22:01:21.028 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 22:01:21.074 -04:00 [INF] [PrintEngine] Job "cf3c4941-d8d0-4df1-afe1-9be53d6d96cf" (PDF) DONE in 53ms
+2026-07-28 22:01:21.074 -04:00 [INF] Job "cf3c4941-d8d0-4df1-afe1-9be53d6d96cf" completed in 55.7886ms
+2026-07-28 22:13:04.468 -04:00 [DBG] Job "7cad3990-fb98-4a54-8048-bb9929adc5d6" enqueued. Queue depth: 1
+2026-07-28 22:13:04.468 -04:00 [INF] Print job "7cad3990-fb98-4a54-8048-bb9929adc5d6" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 22:13:04.470 -04:00 [INF] POST /api/jobs responded 201 in 494ms
+2026-07-28 22:13:05.167 -04:00 [INF] Processing job "7cad3990-fb98-4a54-8048-bb9929adc5d6" for printer 'POS-58', type '"Pdf"'
+2026-07-28 22:13:05.167 -04:00 [INF] [PrintEngine] Job "7cad3990-fb98-4a54-8048-bb9929adc5d6": Type="Pdf", Printer=POS-58, DataSize=7132 bytes
+2026-07-28 22:13:05.171 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 22:13:05.171 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 22:13:05.171 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 22:13:05.200 -04:00 [INF] [PrintEngine] PDF text extracted: 873 chars
+2026-07-28 22:13:05.200 -04:00 [INF] [PrintEngine] PDF text content: '==========================================\nTIENDAS DOMINICANAS\nRNC: 11111111111\nVilla mella, santo domingo norte, santo domingo, 03007, república dominicana\nTel. 000000000\n==========================================\nFACTURA #14\nFecha: 2026-07-29 10:13:03 p.m.\nCaja: 01 Cajero: ADMIN\nCliente: CONSUMIDOR FINAL\n==========================================\nDESCRIPCION\n------------------------------------------\n1 x nevera 10000.00 10000.00\n------------------------------------------\nSubtotal: RD$ 10000.00\nDescuento: RD$ 0.00\nITBIS: RD$ 0.00\n==========================================\nTOTAL: RD$ 10000.00\n==========================================\nEfectivo: RD$ 10000.00\nCambio: RD$ 0.00\n==========================================\n¡GRACIAS POR SU COMPRA!\nConserve este comprobante.\nwww.tiendasdominicanas.com\n=========================================='
+2026-07-28 22:13:05.200 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 22:13:05.278 -04:00 [INF] [PrintEngine] Job "7cad3990-fb98-4a54-8048-bb9929adc5d6" (PDF) DONE in 107ms
+2026-07-28 22:13:05.278 -04:00 [INF] Job "7cad3990-fb98-4a54-8048-bb9929adc5d6" completed in 111.0513ms
