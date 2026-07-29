@@ -13,3 +13,4 @@ C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Share
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Debug\net8.0\refint\LocalPrintService.Shared.dll
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Debug\net8.0\LocalPrintService.Shared.pdb
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Debug\net8.0\ref\LocalPrintService.Shared.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Debug\net8.0\LocalPrintService.Shared.sourcelink.json

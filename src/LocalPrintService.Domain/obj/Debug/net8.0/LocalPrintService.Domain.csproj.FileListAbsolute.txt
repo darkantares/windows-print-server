@@ -9,3 +9,4 @@ C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Domai
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Domain\obj\Debug\net8.0\refint\LocalPrintService.Domain.dll
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Domain\obj\Debug\net8.0\LocalPrintService.Domain.pdb
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Domain\obj\Debug\net8.0\ref\LocalPrintService.Domain.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Domain\obj\Debug\net8.0\LocalPrintService.Domain.sourcelink.json

@@ -26,3 +26,4 @@ C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infra
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Debug\net8.0\Microsoft.Web.WebView2.Core.xml
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Debug\net8.0\Microsoft.Web.WebView2.Wpf.xml
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Debug\net8.0\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Debug\net8.0\LocalPrintService.Infrastructure.sourcelink.json

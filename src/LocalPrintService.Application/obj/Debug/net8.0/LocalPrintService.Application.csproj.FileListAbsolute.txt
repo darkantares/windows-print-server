@@ -15,3 +15,4 @@ C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Appli
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Debug\net8.0\refint\LocalPrintService.Application.dll
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Debug\net8.0\LocalPrintService.Application.pdb
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Debug\net8.0\ref\LocalPrintService.Application.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Debug\net8.0\LocalPrintService.Application.sourcelink.json
