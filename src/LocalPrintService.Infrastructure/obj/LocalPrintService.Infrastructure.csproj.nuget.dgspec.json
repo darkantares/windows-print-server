@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj",
+        "projectName": "LocalPrintService.Application",
+        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj",
+        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+              },
+              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
+                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj",
+        "projectName": "LocalPrintService.Domain",
+        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj",
+        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj",
+        "projectName": "LocalPrintService.Infrastructure",
+        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj": {
+                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj"
+              },
+              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+              },
+              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
+                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Docnet.Core": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2739.15, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
+        "projectName": "LocalPrintService.Shared",
+        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
+        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

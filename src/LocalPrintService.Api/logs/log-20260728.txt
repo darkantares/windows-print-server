@@ -1,0 +1,443 @@
+2026-07-28 03:09:02.890 -04:00 [INF] PrintWorker started
+2026-07-28 03:09:03.019 -04:00 [ERR] Hosting failed to start
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Api\certs\print-local.pfx'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2Collection.ImportFromPemFile(String certPemFilePath)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Certificates.CertificateConfigLoader.LoadCertificate(CertificateConfig certInfo, String endpointName)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.TlsConfigurationLoader.ApplyHttpsConfiguration(HttpsConnectionAdapterOptions httpsOptions, EndpointConfig endpoint, KestrelServerOptions serverOptions, CertificateConfig defaultCertificateConfig, ConfigurationReader configurationReader)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.LoadInternal()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-07-28 03:09:03.029 -04:00 [INF] PrintWorker stopped
+2026-07-28 03:10:17.674 -04:00 [INF] PrintWorker started
+2026-07-28 03:10:17.788 -04:00 [ERR] Hosting failed to start
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\certs\print-local.pfx'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2Collection.ImportFromPemFile(String certPemFilePath)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Certificates.CertificateConfigLoader.LoadCertificate(CertificateConfig certInfo, String endpointName)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.TlsConfigurationLoader.ApplyHttpsConfiguration(HttpsConnectionAdapterOptions httpsOptions, EndpointConfig endpoint, KestrelServerOptions serverOptions, CertificateConfig defaultCertificateConfig, ConfigurationReader configurationReader)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.LoadInternal()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-07-28 03:10:17.793 -04:00 [INF] PrintWorker stopped
+2026-07-28 03:11:23.895 -04:00 [INF] PrintWorker started
+2026-07-28 03:11:24.021 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 03:13:07.682 -04:00 [INF] PrintWorker started
+2026-07-28 03:13:07.782 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 03:24:08.673 -04:00 [INF] GET /api/health responded 307 in 1ms
+2026-07-28 03:25:23.678 -04:00 [INF] GET /api/health responded 307 in 0ms
+2026-07-28 03:27:19.910 -04:00 [INF] PrintWorker started
+2026-07-28 03:27:20.002 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 03:27:26.069 -04:00 [INF] GET /api/printers responded 307 in 1ms
+2026-07-28 03:29:39.785 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.802 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.803 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.803 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.804 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.804 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.805 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:29:39.806 -04:00 [DBG] Found 0 printers
+2026-07-28 03:29:39.822 -04:00 [INF] GET /api/printers responded 200 in 593ms
+2026-07-28 03:29:40.611 -04:00 [INF] GET /favicon.ico responded 404 in 0ms
+2026-07-28 03:31:30.065 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.065 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.066 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.066 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.067 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.067 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.068 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:31:30.068 -04:00 [DBG] Found 0 printers
+2026-07-28 03:31:30.069 -04:00 [INF] GET /api/printers responded 200 in 383ms
+2026-07-28 03:34:02.962 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.963 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.963 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.963 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.963 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.964 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.964 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:34:02.964 -04:00 [DBG] Found 0 printers
+2026-07-28 03:34:02.965 -04:00 [INF] GET /api/printers responded 200 in 274ms
+2026-07-28 03:36:22.241 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.241 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.242 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.242 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.242 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.242 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.243 -04:00 [WRN] Failed to map printer object to PrinterInfo
+System.FormatException: The input string 'System.String[]' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToUInt16(String value)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrinterManager.MapToPrinterInfo(ManagementObject obj) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrinterManager.cs:line 107
+2026-07-28 03:36:22.243 -04:00 [DBG] Found 0 printers
+2026-07-28 03:36:22.244 -04:00 [INF] GET /api/printers responded 200 in 251ms
+2026-07-28 03:41:13.265 -04:00 [INF] PrintWorker started
+2026-07-28 03:41:13.423 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 03:43:16.443 -04:00 [DBG] Found 7 printers
+2026-07-28 03:43:16.461 -04:00 [INF] GET /api/printers responded 200 in 293ms
+2026-07-28 03:44:17.571 -04:00 [DBG] Found 7 printers
+2026-07-28 03:44:17.572 -04:00 [INF] GET /api/printers responded 200 in 284ms
+2026-07-28 04:19:13.401 -04:00 [DBG] Found 7 printers
+2026-07-28 04:19:13.402 -04:00 [INF] GET /api/printers responded 200 in 314ms
+2026-07-28 04:24:54.940 -04:00 [DBG] Found 7 printers
+2026-07-28 04:24:54.941 -04:00 [INF] GET /api/printers responded 200 in 276ms
+2026-07-28 04:28:12.050 -04:00 [INF] GET /api/printers responded 307 in 2ms
+2026-07-28 04:28:12.314 -04:00 [DBG] Found 7 printers
+2026-07-28 04:28:12.314 -04:00 [INF] GET /api/printers responded 200 in 240ms
+2026-07-28 04:28:15.867 -04:00 [DBG] Found 7 printers
+2026-07-28 04:28:15.868 -04:00 [INF] GET /api/printers responded 200 in 204ms
+2026-07-28 04:28:31.522 -04:00 [INF] GET /api/printers responded 307 in 0ms
+2026-07-28 04:28:31.750 -04:00 [DBG] Found 7 printers
+2026-07-28 04:28:31.750 -04:00 [INF] GET /api/printers responded 200 in 217ms
+2026-07-28 04:38:20.588 -04:00 [INF] PrintWorker started
+2026-07-28 04:38:20.682 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 04:39:35.574 -04:00 [DBG] Found 7 printers
+2026-07-28 04:39:35.600 -04:00 [INF] GET /api/printers responded 200 in 445ms
+2026-07-28 04:39:36.410 -04:00 [INF] GET /favicon.ico responded 404 in 0ms
+2026-07-28 04:39:48.765 -04:00 [DBG] Found 7 printers
+2026-07-28 04:39:48.766 -04:00 [INF] OPTIONS /api/printers responded 200 in 217ms
+2026-07-28 04:42:29.390 -04:00 [INF] PrintWorker stopped
+2026-07-28 04:43:36.251 -04:00 [INF] PrintWorker started
+2026-07-28 04:43:36.333 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 04:43:40.695 -04:00 [DBG] Found 7 printers
+2026-07-28 04:43:40.717 -04:00 [INF] GET /api/printers responded 200 in 292ms
+2026-07-28 04:43:54.672 -04:00 [DBG] Found 7 printers
+2026-07-28 04:43:54.673 -04:00 [INF] OPTIONS /api/printers responded 200 in 226ms
+2026-07-28 04:44:20.524 -04:00 [INF] PrintWorker stopped
+2026-07-28 04:44:37.066 -04:00 [INF] PrintWorker started
+2026-07-28 04:44:37.170 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 04:44:39.488 -04:00 [DBG] Found 7 printers
+2026-07-28 04:44:39.506 -04:00 [INF] GET /api/printers responded 200 in 258ms
+2026-07-28 04:45:10.015 -04:00 [DBG] Found 7 printers
+2026-07-28 04:45:10.016 -04:00 [INF] OPTIONS /api/printers responded 200 in 221ms
+2026-07-28 04:46:22.063 -04:00 [INF] PrintWorker stopped
+2026-07-28 04:47:18.113 -04:00 [INF] PrintWorker started
+2026-07-28 04:47:18.212 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 04:47:20.491 -04:00 [DBG] Found 7 printers
+2026-07-28 04:47:20.512 -04:00 [INF] GET /api/printers responded 200 in 303ms
+2026-07-28 04:47:33.475 -04:00 [DBG] Found 7 printers
+2026-07-28 04:47:33.476 -04:00 [INF] OPTIONS /api/printers responded 200 in 229ms
+2026-07-28 12:53:13.716 -04:00 [INF] PrintWorker started
+2026-07-28 12:53:14.266 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 12:55:39.536 -04:00 [INF] GET / responded 404 in 1ms
+2026-07-28 12:55:59.784 -04:00 [INF] GET /favicon.ico responded 404 in 0ms
+2026-07-28 12:56:27.757 -04:00 [DBG] Found 7 printers
+2026-07-28 12:56:27.777 -04:00 [INF] OPTIONS /api/printers responded 200 in 621ms
+2026-07-28 13:02:49.207 -04:00 [INF] GET /api/health responded 200 in 13ms
+2026-07-28 13:03:07.530 -04:00 [DBG] Found 7 printers
+2026-07-28 13:03:07.531 -04:00 [INF] GET /api/printers responded 200 in 252ms
+2026-07-28 13:03:45.009 -04:00 [DBG] Found 7 printers
+2026-07-28 13:03:45.010 -04:00 [INF] OPTIONS /api/printers responded 200 in 204ms
+2026-07-28 13:04:00.861 -04:00 [DBG] Found 7 printers
+2026-07-28 13:04:00.861 -04:00 [INF] GET /api/printers responded 200 in 243ms
+2026-07-28 13:04:15.285 -04:00 [INF] GET /api/health responded 200 in 7ms
+2026-07-28 13:07:18.546 -04:00 [INF] PrintWorker stopped
+2026-07-28 13:09:58.567 -04:00 [INF] PrintWorker started
+2026-07-28 13:09:58.725 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 13:10:02.303 -04:00 [INF] GET /api/health responded 200 in 22ms
+2026-07-28 13:25:41.498 -04:00 [DBG] Found 7 printers
+2026-07-28 13:25:41.511 -04:00 [INF] GET /api/printers responded 200 in 348ms
+2026-07-28 13:26:15.931 -04:00 [DBG] Found 7 printers
+2026-07-28 13:26:15.932 -04:00 [INF] OPTIONS /api/printers responded 200 in 252ms
+2026-07-28 13:30:53.483 -04:00 [INF] GET /api/health responded 200 in 3ms
+2026-07-28 13:31:00.403 -04:00 [DBG] Found 7 printers
+2026-07-28 13:31:00.404 -04:00 [INF] GET /api/printers responded 200 in 265ms
+2026-07-28 13:32:58.126 -04:00 [DBG] Found 7 printers
+2026-07-28 13:32:58.127 -04:00 [INF] GET /api/printers responded 200 in 231ms
+2026-07-28 13:41:47.236 -04:00 [DBG] Found 7 printers
+2026-07-28 13:41:47.236 -04:00 [INF] GET /api/printers responded 200 in 219ms
+2026-07-28 13:46:05.306 -04:00 [DBG] Found 7 printers
+2026-07-28 13:46:05.307 -04:00 [INF] GET /api/printers responded 200 in 243ms
+2026-07-28 13:55:56.692 -04:00 [DBG] Found 7 printers
+2026-07-28 13:55:56.692 -04:00 [INF] GET /api/printers responded 200 in 248ms
+2026-07-28 14:17:43.849 -04:00 [DBG] Found 7 printers
+2026-07-28 14:17:43.851 -04:00 [INF] GET /api/printers responded 200 in 356ms
+2026-07-28 14:23:59.269 -04:00 [DBG] Found 7 printers
+2026-07-28 14:23:59.269 -04:00 [INF] GET /api/printers responded 200 in 247ms
+2026-07-28 14:33:04.090 -04:00 [DBG] Found 7 printers
+2026-07-28 14:33:04.092 -04:00 [INF] GET /api/printers responded 200 in 312ms
+2026-07-28 14:40:06.893 -04:00 [WRN] As of ""2026-07-28T18:40:06.8621319+00:00"", the heartbeat has been running for ""00:00:01.1507295"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2026-07-28 14:40:50.525 -04:00 [DBG] Found 7 printers
+2026-07-28 14:40:50.526 -04:00 [INF] GET /api/printers responded 200 in 538ms
+2026-07-28 16:56:17.139 -04:00 [DBG] Found 7 printers
+2026-07-28 16:56:17.142 -04:00 [INF] GET /api/printers responded 200 in 405ms
+2026-07-28 17:03:14.436 -04:00 [DBG] Job "949195a2-50fe-4ea4-b3ab-48a2003f4494" enqueued. Queue depth: 1
+2026-07-28 17:03:14.440 -04:00 [INF] Print job "949195a2-50fe-4ea4-b3ab-48a2003f4494" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 17:03:14.459 -04:00 [INF] POST /api/jobs responded 201 in 740ms
+2026-07-28 17:03:15.340 -04:00 [INF] Processing job "949195a2-50fe-4ea4-b3ab-48a2003f4494" for printer 'POS-58', type '"Pdf"'
+2026-07-28 17:03:15.637 -04:00 [ERR] Error rendering page for job "949195a2-50fe-4ea4-b3ab-48a2003f4494"
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Image.LoadGdipImageFromStream(GPStream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass2_1.<PrintAsync>b__1(Object sender, PrintPageEventArgs e) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 69
+2026-07-28 17:03:15.677 -04:00 [INF] Job "949195a2-50fe-4ea4-b3ab-48a2003f4494" printed on 'POS-58' in 289ms
+2026-07-28 17:03:15.677 -04:00 [INF] Job "949195a2-50fe-4ea4-b3ab-48a2003f4494" completed in 334.9509ms
+2026-07-28 17:03:49.911 -04:00 [DBG] Job "b9ed6309-6be9-41fd-be3f-64ae78bbc8b8" enqueued. Queue depth: 1
+2026-07-28 17:03:49.911 -04:00 [INF] Print job "b9ed6309-6be9-41fd-be3f-64ae78bbc8b8" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 17:03:49.911 -04:00 [INF] POST /api/jobs responded 201 in 378ms
+2026-07-28 17:03:50.052 -04:00 [INF] Processing job "b9ed6309-6be9-41fd-be3f-64ae78bbc8b8" for printer 'POS-58', type '"Pdf"'
+2026-07-28 17:03:50.145 -04:00 [ERR] Error rendering page for job "b9ed6309-6be9-41fd-be3f-64ae78bbc8b8"
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Image.LoadGdipImageFromStream(GPStream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass2_1.<PrintAsync>b__1(Object sender, PrintPageEventArgs e) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 69
+2026-07-28 17:03:50.147 -04:00 [INF] Job "b9ed6309-6be9-41fd-be3f-64ae78bbc8b8" printed on 'POS-58' in 94ms
+2026-07-28 17:03:50.147 -04:00 [INF] Job "b9ed6309-6be9-41fd-be3f-64ae78bbc8b8" completed in 95.3168ms
+2026-07-28 17:11:10.366 -04:00 [DBG] Found 7 printers
+2026-07-28 17:11:10.366 -04:00 [INF] GET /api/printers responded 200 in 222ms
+2026-07-28 17:11:30.116 -04:00 [DBG] Job "096a68f0-08f7-492c-a169-68ce033dbd02" enqueued. Queue depth: 1
+2026-07-28 17:11:30.116 -04:00 [INF] Print job "096a68f0-08f7-492c-a169-68ce033dbd02" created for printer 'Microsoft Print to PDF', type '"Pdf"', copies 1
+2026-07-28 17:11:30.116 -04:00 [INF] POST /api/jobs responded 201 in 399ms
+2026-07-28 17:11:30.263 -04:00 [INF] Processing job "096a68f0-08f7-492c-a169-68ce033dbd02" for printer 'Microsoft Print to PDF', type '"Pdf"'
+2026-07-28 17:11:41.884 -04:00 [ERR] Error rendering page for job "096a68f0-08f7-492c-a169-68ce033dbd02"
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Image.LoadGdipImageFromStream(GPStream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass2_1.<PrintAsync>b__1(Object sender, PrintPageEventArgs e) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 69
+2026-07-28 17:11:42.244 -04:00 [INF] Job "096a68f0-08f7-492c-a169-68ce033dbd02" printed on 'Microsoft Print to PDF' in 11979ms
+2026-07-28 17:11:42.245 -04:00 [INF] Job "096a68f0-08f7-492c-a169-68ce033dbd02" completed in 11981.0506ms
+2026-07-28 17:24:52.736 -04:00 [DBG] Job "31ea58a1-66c8-43df-97c8-4810ce53bae0" enqueued. Queue depth: 1
+2026-07-28 17:24:52.736 -04:00 [INF] Print job "31ea58a1-66c8-43df-97c8-4810ce53bae0" created for printer 'Microsoft Print to PDF', type '"Pdf"', copies 1
+2026-07-28 17:24:52.737 -04:00 [INF] POST /api/jobs responded 201 in 378ms
+2026-07-28 17:24:52.786 -04:00 [INF] Processing job "31ea58a1-66c8-43df-97c8-4810ce53bae0" for printer 'Microsoft Print to PDF', type '"Pdf"'
+2026-07-28 17:25:00.394 -04:00 [ERR] Error rendering page for job "31ea58a1-66c8-43df-97c8-4810ce53bae0"
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Image.LoadGdipImageFromStream(GPStream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass2_1.<PrintAsync>b__1(Object sender, PrintPageEventArgs e) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 69
+2026-07-28 17:25:00.662 -04:00 [INF] Job "31ea58a1-66c8-43df-97c8-4810ce53bae0" printed on 'Microsoft Print to PDF' in 7874ms
+2026-07-28 17:25:00.662 -04:00 [INF] Job "31ea58a1-66c8-43df-97c8-4810ce53bae0" completed in 7875.2301ms
+2026-07-28 17:47:31.917 -04:00 [INF] PrintWorker started
+2026-07-28 17:47:32.050 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 17:49:20.876 -04:00 [DBG] Job "1089c9ad-2d36-40c2-a05d-65bf4d4d35b0" enqueued. Queue depth: 1
+2026-07-28 17:49:20.880 -04:00 [INF] Print job "1089c9ad-2d36-40c2-a05d-65bf4d4d35b0" created for printer 'Microsoft Print to PDF', type '"Pdf"', copies 1
+2026-07-28 17:49:20.901 -04:00 [INF] POST /api/jobs responded 201 in 527ms
+2026-07-28 17:49:20.913 -04:00 [INF] Processing job "1089c9ad-2d36-40c2-a05d-65bf4d4d35b0" for printer 'Microsoft Print to PDF', type '"Pdf"'
+2026-07-28 17:50:23.109 -04:00 [INF] Job "1089c9ad-2d36-40c2-a05d-65bf4d4d35b0" (PDF) printed on 'Microsoft Print to PDF' in 62192ms
+2026-07-28 17:50:23.110 -04:00 [INF] Job "1089c9ad-2d36-40c2-a05d-65bf4d4d35b0" completed in 62196.2159ms
+2026-07-28 18:32:16.623 -04:00 [INF] PrintWorker started
+2026-07-28 18:32:16.816 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 18:33:03.816 -04:00 [DBG] Job "99a6ddf3-af3c-46e5-98a8-490914bcb655" enqueued. Queue depth: 1
+2026-07-28 18:33:03.820 -04:00 [INF] Print job "99a6ddf3-af3c-46e5-98a8-490914bcb655" created for printer 'Microsoft Print to PDF', type '"Pdf"', copies 1
+2026-07-28 18:33:03.839 -04:00 [INF] POST /api/jobs responded 201 in 534ms
+2026-07-28 18:33:03.989 -04:00 [INF] Processing job "99a6ddf3-af3c-46e5-98a8-490914bcb655" for printer 'Microsoft Print to PDF', type '"Pdf"'
+2026-07-28 18:33:03.999 -04:00 [INF] Rendering PDF to images for job "99a6ddf3-af3c-46e5-98a8-490914bcb655"
+2026-07-28 18:33:04.233 -04:00 [ERR] Failed to print PDF job "99a6ddf3-af3c-46e5-98a8-490914bcb655" on 'Microsoft Print to PDF'
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Bitmap..ctor(Stream stream, Boolean useIcm)
+   at System.Drawing.Bitmap..ctor(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.PdfRenderer.RenderPdfToImages(Byte[] pdfData, Int32 dpi) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\PdfRenderer.cs:line 32
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass4_0.<PrintPdfAsync>b__0() in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 50
+2026-07-28 18:33:04.245 -04:00 [WRN] Job "99a6ddf3-af3c-46e5-98a8-490914bcb655" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 18:33:20.885 -04:00 [DBG] Found 7 printers
+2026-07-28 18:33:20.899 -04:00 [INF] GET /api/printers responded 200 in 232ms
+2026-07-28 18:33:33.814 -04:00 [DBG] Found 7 printers
+2026-07-28 18:33:33.814 -04:00 [INF] GET /api/printers responded 200 in 201ms
+2026-07-28 18:33:50.880 -04:00 [DBG] Job "d011e39f-2dc2-47e0-a8b3-cbbda58e2142" enqueued. Queue depth: 1
+2026-07-28 18:33:50.880 -04:00 [INF] Print job "d011e39f-2dc2-47e0-a8b3-cbbda58e2142" created for printer 'Microsoft Print to PDF', type '"Pdf"', copies 1
+2026-07-28 18:33:50.880 -04:00 [INF] POST /api/jobs responded 201 in 379ms
+2026-07-28 18:33:51.643 -04:00 [INF] Processing job "d011e39f-2dc2-47e0-a8b3-cbbda58e2142" for printer 'Microsoft Print to PDF', type '"Pdf"'
+2026-07-28 18:33:51.645 -04:00 [INF] Rendering PDF to images for job "d011e39f-2dc2-47e0-a8b3-cbbda58e2142"
+2026-07-28 18:33:51.650 -04:00 [ERR] Failed to print PDF job "d011e39f-2dc2-47e0-a8b3-cbbda58e2142" on 'Microsoft Print to PDF'
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Bitmap..ctor(Stream stream, Boolean useIcm)
+   at System.Drawing.Bitmap..ctor(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.PdfRenderer.RenderPdfToImages(Byte[] pdfData, Int32 dpi) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\PdfRenderer.cs:line 32
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass4_0.<PrintPdfAsync>b__0() in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 50
+2026-07-28 18:33:51.650 -04:00 [WRN] Job "d011e39f-2dc2-47e0-a8b3-cbbda58e2142" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 18:34:50.161 -04:00 [DBG] Found 7 printers
+2026-07-28 18:34:50.161 -04:00 [INF] GET /api/printers responded 200 in 218ms
+2026-07-28 18:35:11.093 -04:00 [DBG] Job "caf17537-1d06-4afb-98b4-986a9770faaf" enqueued. Queue depth: 1
+2026-07-28 18:35:11.093 -04:00 [INF] Print job "caf17537-1d06-4afb-98b4-986a9770faaf" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 18:35:11.093 -04:00 [INF] POST /api/jobs responded 201 in 381ms
+2026-07-28 18:35:11.335 -04:00 [INF] Processing job "caf17537-1d06-4afb-98b4-986a9770faaf" for printer 'POS-58', type '"Pdf"'
+2026-07-28 18:35:11.337 -04:00 [INF] Rendering PDF to images for job "caf17537-1d06-4afb-98b4-986a9770faaf"
+2026-07-28 18:35:11.344 -04:00 [ERR] Failed to print PDF job "caf17537-1d06-4afb-98b4-986a9770faaf" on 'POS-58'
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Bitmap..ctor(Stream stream, Boolean useIcm)
+   at System.Drawing.Bitmap..ctor(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.PdfRenderer.RenderPdfToImages(Byte[] pdfData, Int32 dpi) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\PdfRenderer.cs:line 32
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass4_0.<PrintPdfAsync>b__0() in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 50
+2026-07-28 18:35:11.344 -04:00 [WRN] Job "caf17537-1d06-4afb-98b4-986a9770faaf" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 18:38:05.976 -04:00 [DBG] Job "82224f25-89a8-4fdd-b023-227094266371" enqueued. Queue depth: 1
+2026-07-28 18:38:05.976 -04:00 [INF] Print job "82224f25-89a8-4fdd-b023-227094266371" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 18:38:05.977 -04:00 [INF] POST /api/jobs responded 201 in 445ms
+2026-07-28 18:38:06.866 -04:00 [INF] Processing job "82224f25-89a8-4fdd-b023-227094266371" for printer 'POS-58', type '"Text"'
+2026-07-28 18:38:07.038 -04:00 [ERR] Error rendering image for job "82224f25-89a8-4fdd-b023-227094266371"
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Image.LoadGdipImageFromStream(GPStream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass6_0.<PrintImageAsync>b__1(Object sender, PrintPageEventArgs e) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 164
+2026-07-28 18:38:07.054 -04:00 [INF] Job "82224f25-89a8-4fdd-b023-227094266371" (Image) printed on 'POS-58' in 185ms
+2026-07-28 18:38:07.054 -04:00 [INF] Job "82224f25-89a8-4fdd-b023-227094266371" completed in 187.4663ms
+2026-07-28 18:38:49.263 -04:00 [INF] GET /api/jobs/82224f25-89a8-4fdd-b023-227094266371 responded 200 in 0ms
+2026-07-28 18:40:56.420 -04:00 [DBG] Job "cbeb07d6-278f-4385-8f4f-de3c9369fbc5" enqueued. Queue depth: 1
+2026-07-28 18:40:56.420 -04:00 [INF] Print job "cbeb07d6-278f-4385-8f4f-de3c9369fbc5" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 18:40:56.420 -04:00 [INF] POST /api/jobs responded 201 in 391ms
+2026-07-28 18:40:57.330 -04:00 [INF] Processing job "cbeb07d6-278f-4385-8f4f-de3c9369fbc5" for printer 'POS-58', type '"Text"'
+2026-07-28 18:40:57.434 -04:00 [ERR] Error rendering image for job "cbeb07d6-278f-4385-8f4f-de3c9369fbc5"
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.SafeNativeMethods.Gdip.CheckStatus(Int32 status)
+   at System.Drawing.Image.LoadGdipImageFromStream(GPStream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromStream(Stream stream)
+   at LocalPrintService.Infrastructure.Printing.WindowsPrintEngine.<>c__DisplayClass6_0.<PrintImageAsync>b__1(Object sender, PrintPageEventArgs e) in C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\Printing\WindowsPrintEngine.cs:line 164
+2026-07-28 18:40:57.436 -04:00 [INF] Job "cbeb07d6-278f-4385-8f4f-de3c9369fbc5" (Image) printed on 'POS-58' in 105ms
+2026-07-28 18:40:57.437 -04:00 [INF] Job "cbeb07d6-278f-4385-8f4f-de3c9369fbc5" completed in 106.0974ms
+2026-07-28 18:41:12.686 -04:00 [INF] GET /api/jobs/cbeb07d6-278f-4385-8f4f-de3c9369fbc5 responded 200 in 0ms
+2026-07-28 18:51:41.147 -04:00 [INF] PrintWorker started
+2026-07-28 18:51:41.290 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 18:54:43.472 -04:00 [DBG] Found 7 printers
+2026-07-28 18:54:43.490 -04:00 [INF] GET /api/printers responded 200 in 371ms
+2026-07-28 18:54:44.240 -04:00 [INF] GET /favicon.ico responded 404 in 0ms
+2026-07-28 18:56:48.997 -04:00 [INF] GET /api/health responded 200 in 27ms
+2026-07-28 18:57:10.683 -04:00 [DBG] Job "86033ecb-4e56-4422-a906-473a9452fb4d" enqueued. Queue depth: 1
+2026-07-28 18:57:10.685 -04:00 [INF] Print job "86033ecb-4e56-4422-a906-473a9452fb4d" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 18:57:10.705 -04:00 [INF] POST /api/jobs responded 201 in 708ms
+2026-07-28 18:57:10.939 -04:00 [INF] Processing job "86033ecb-4e56-4422-a906-473a9452fb4d" for printer 'POS-58', type '"Text"'
+2026-07-28 18:57:11.043 -04:00 [WRN] Job "86033ecb-4e56-4422-a906-473a9452fb4d" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 18:57:28.198 -04:00 [INF] GET /api/jobs/86033ecb-4e56-4422-a906-473a9452fb4d responded 200 in 1ms

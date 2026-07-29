@@ -1,0 +1,15 @@
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\bin\Release\net8.0\LocalPrintService.Shared.deps.json
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\bin\Release\net8.0\LocalPrintService.Shared.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\bin\Release\net8.0\LocalPrintService.Shared.pdb
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\bin\Release\net8.0\LocalPrintService.Domain.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\bin\Release\net8.0\LocalPrintService.Domain.pdb
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.csproj.AssemblyReference.cache
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.AssemblyInfoInputs.cache
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.AssemblyInfo.cs
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.csproj.CoreCompileInputs.cache
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPri.C8ED503E.Up2Date
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\refint\LocalPrintService.Shared.dll
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\LocalPrintService.Shared.pdb
+C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Shared\obj\Release\net8.0\ref\LocalPrintService.Shared.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "g5aiypfSwyWcubmaCx0rJpSbfCbs4eF+9Kruzyxkk+M=",
+  "Source": "LocalPrintService.Api",
+  "BasePath": "_content/LocalPrintService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

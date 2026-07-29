@@ -1,0 +1,202 @@
+2026-07-28 18:56:47.098 -04:00 [INF] PrintWorker started
+2026-07-28 18:56:47.294 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 18:56:47.317 -04:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5200: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-07-28 18:56:47.333 -04:00 [INF] PrintWorker stopped
+2026-07-28 18:58:29.076 -04:00 [INF] PrintWorker started
+2026-07-28 18:58:29.165 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:03:05.656 -04:00 [INF] PrintWorker started
+2026-07-28 19:03:05.747 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:03:10.870 -04:00 [INF] GET /api/health responded 200 in 16ms
+2026-07-28 19:03:29.174 -04:00 [DBG] Job "9419d19f-53c7-4530-b305-ac211edf033b" enqueued. Queue depth: 1
+2026-07-28 19:03:29.176 -04:00 [INF] Print job "9419d19f-53c7-4530-b305-ac211edf033b" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 19:03:29.190 -04:00 [INF] POST /api/jobs responded 201 in 496ms
+2026-07-28 19:03:29.908 -04:00 [INF] Processing job "9419d19f-53c7-4530-b305-ac211edf033b" for printer 'POS-58', type '"Text"'
+2026-07-28 19:03:29.914 -04:00 [INF] [PrintEngine] Job "9419d19f-53c7-4530-b305-ac211edf033b": Type="Text", Printer=POS-58, DataSize=821 bytes
+2026-07-28 19:03:29.918 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:03:29.918 -04:00 [INF] [PrintEngine] Path: Raw/Text -> PrintRawAsync
+2026-07-28 19:03:29.919 -04:00 [INF] [PrintEngine] Raw copy 1/1, 821 bytes -> 'POS-58'
+2026-07-28 19:03:29.963 -04:00 [ERR] [PrintEngine] RawPrinterHelper FAILED for job "9419d19f-53c7-4530-b305-ac211edf033b"
+2026-07-28 19:03:29.964 -04:00 [WRN] Job "9419d19f-53c7-4530-b305-ac211edf033b" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 19:03:46.499 -04:00 [INF] GET /api/jobs/9419d19f-53c7-4530-b305-ac211edf033b responded 200 in 1ms
+2026-07-28 19:05:03.320 -04:00 [INF] PrintWorker started
+2026-07-28 19:05:03.419 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:05:09.230 -04:00 [INF] GET /api/health responded 200 in 16ms
+2026-07-28 19:05:29.589 -04:00 [DBG] Job "cde4f837-00c5-4f6f-a9c8-d09847e1b9e6" enqueued. Queue depth: 1
+2026-07-28 19:05:29.591 -04:00 [INF] Print job "cde4f837-00c5-4f6f-a9c8-d09847e1b9e6" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 19:05:29.607 -04:00 [INF] POST /api/jobs responded 201 in 448ms
+2026-07-28 19:05:30.599 -04:00 [INF] Processing job "cde4f837-00c5-4f6f-a9c8-d09847e1b9e6" for printer 'POS-58', type '"Text"'
+2026-07-28 19:05:30.601 -04:00 [INF] [PrintEngine] Job "cde4f837-00c5-4f6f-a9c8-d09847e1b9e6": Type="Text", Printer=POS-58, DataSize=821 bytes
+2026-07-28 19:05:30.604 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:05:30.605 -04:00 [INF] [PrintEngine] Path: Raw/Text -> PrintRawAsync
+2026-07-28 19:05:30.606 -04:00 [INF] [PrintEngine] Raw copy 1/1, 821 bytes -> 'POS-58'
+2026-07-28 19:05:30.650 -04:00 [ERR] [PrintEngine] RawPrinterHelper FAILED for job "cde4f837-00c5-4f6f-a9c8-d09847e1b9e6"
+2026-07-28 19:05:30.651 -04:00 [WRN] Job "cde4f837-00c5-4f6f-a9c8-d09847e1b9e6" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 19:05:34.659 -04:00 [INF] GET /api/jobs/cde4f837-00c5-4f6f-a9c8-d09847e1b9e6 responded 200 in 2ms
+2026-07-28 19:13:34.949 -04:00 [INF] PrintWorker started
+2026-07-28 19:13:35.057 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:13:40.374 -04:00 [INF] GET /api/health responded 200 in 19ms
+2026-07-28 19:14:00.520 -04:00 [DBG] Job "0bfcebac-9150-42cd-b65a-ccc87b5d7dc6" enqueued. Queue depth: 1
+2026-07-28 19:14:00.522 -04:00 [INF] Print job "0bfcebac-9150-42cd-b65a-ccc87b5d7dc6" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 19:14:00.535 -04:00 [INF] POST /api/jobs responded 201 in 455ms
+2026-07-28 19:14:01.187 -04:00 [INF] Processing job "0bfcebac-9150-42cd-b65a-ccc87b5d7dc6" for printer 'POS-58', type '"Text"'
+2026-07-28 19:14:01.189 -04:00 [INF] [PrintEngine] Job "0bfcebac-9150-42cd-b65a-ccc87b5d7dc6": Type="Text", Printer=POS-58, DataSize=821 bytes
+2026-07-28 19:14:01.194 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:14:01.194 -04:00 [INF] [PrintEngine] Path: Raw/Text -> PrintRawAsync
+2026-07-28 19:14:01.196 -04:00 [INF] [PrintEngine] Raw copy 1/1, 821 bytes -> 'POS-58'
+2026-07-28 19:14:01.243 -04:00 [ERR] [PrintEngine] RawPrinterHelper FAILED for job "0bfcebac-9150-42cd-b65a-ccc87b5d7dc6": StartDocPrinter failed. Win32 error: 1804
+2026-07-28 19:14:01.244 -04:00 [WRN] Job "0bfcebac-9150-42cd-b65a-ccc87b5d7dc6" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 19:14:08.581 -04:00 [INF] GET /api/jobs/0bfcebac-9150-42cd-b65a-ccc87b5d7dc6 responded 200 in 1ms
+2026-07-28 19:17:24.874 -04:00 [INF] PrintWorker started
+2026-07-28 19:17:24.979 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:17:30.189 -04:00 [INF] GET /api/health responded 200 in 17ms
+2026-07-28 19:17:51.514 -04:00 [DBG] Job "8276c636-77aa-48e3-913f-d01ad93031c3" enqueued. Queue depth: 1
+2026-07-28 19:17:51.516 -04:00 [INF] Print job "8276c636-77aa-48e3-913f-d01ad93031c3" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 19:17:51.530 -04:00 [INF] POST /api/jobs responded 201 in 511ms
+2026-07-28 19:17:52.132 -04:00 [INF] Processing job "8276c636-77aa-48e3-913f-d01ad93031c3" for printer 'POS-58', type '"Text"'
+2026-07-28 19:17:52.135 -04:00 [INF] [PrintEngine] Job "8276c636-77aa-48e3-913f-d01ad93031c3": Type="Text", Printer=POS-58, DataSize=821 bytes
+2026-07-28 19:17:52.160 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:17:52.161 -04:00 [INF] [PrintEngine] Path: Raw/Text -> PrintRawAsync
+2026-07-28 19:17:52.163 -04:00 [INF] [PrintEngine] Raw copy 1/1, 821 bytes -> 'POS-58'
+2026-07-28 19:17:52.222 -04:00 [ERR] [PrintEngine] RawPrinterHelper FAILED for job "8276c636-77aa-48e3-913f-d01ad93031c3": StartDocPrinter failed. Win32 error: 1804
+2026-07-28 19:17:52.224 -04:00 [WRN] Job "8276c636-77aa-48e3-913f-d01ad93031c3" failed (attempt 1/3), will retry: Print engine returned false
+2026-07-28 19:17:59.575 -04:00 [INF] GET /api/jobs/8276c636-77aa-48e3-913f-d01ad93031c3 responded 200 in 3ms
+2026-07-28 19:24:14.796 -04:00 [INF] PrintWorker started
+2026-07-28 19:24:14.908 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:24:20.360 -04:00 [INF] GET /api/health responded 200 in 18ms
+2026-07-28 19:24:42.285 -04:00 [DBG] Job "ab061992-2936-415d-8441-2836deb6a524" enqueued. Queue depth: 1
+2026-07-28 19:24:42.287 -04:00 [INF] Print job "ab061992-2936-415d-8441-2836deb6a524" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 19:24:42.301 -04:00 [INF] POST /api/jobs responded 201 in 453ms
+2026-07-28 19:24:43.087 -04:00 [INF] Processing job "ab061992-2936-415d-8441-2836deb6a524" for printer 'POS-58', type '"Text"'
+2026-07-28 19:24:43.089 -04:00 [INF] [PrintEngine] Job "ab061992-2936-415d-8441-2836deb6a524": Type="Text", Printer=POS-58, DataSize=821 bytes
+2026-07-28 19:24:43.094 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:24:43.095 -04:00 [INF] [PrintEngine] Path: Raw/Text -> PrintRawAsync
+2026-07-28 19:24:43.096 -04:00 [INF] [PrintEngine] Raw copy 1/1, 821 bytes -> 'POS-58'
+2026-07-28 19:24:43.151 -04:00 [INF] [PrintEngine] RawPrinterHelper OK: Wrote 846 bytes
+2026-07-28 19:24:43.151 -04:00 [INF] [PrintEngine] Job "ab061992-2936-415d-8441-2836deb6a524" (Raw) DONE in 54ms
+2026-07-28 19:24:43.152 -04:00 [INF] Job "ab061992-2936-415d-8441-2836deb6a524" completed in 64.8743ms
+2026-07-28 19:24:50.362 -04:00 [INF] GET /api/jobs/ab061992-2936-415d-8441-2836deb6a524 responded 200 in 5ms
+2026-07-28 19:25:47.863 -04:00 [DBG] Job "534f55cb-8d3e-4738-9c47-d755bf1563b5" enqueued. Queue depth: 1
+2026-07-28 19:25:47.863 -04:00 [INF] Print job "534f55cb-8d3e-4738-9c47-d755bf1563b5" created for printer 'POS-58', type '"Image"', copies 1
+2026-07-28 19:25:47.864 -04:00 [INF] POST /api/jobs responded 201 in 364ms
+2026-07-28 19:25:47.879 -04:00 [INF] Processing job "534f55cb-8d3e-4738-9c47-d755bf1563b5" for printer 'POS-58', type '"Image"'
+2026-07-28 19:25:47.895 -04:00 [DBG] Processing image: 384x600, Format=Png
+2026-07-28 19:25:47.908 -04:00 [INF] [PrintEngine] Job "534f55cb-8d3e-4738-9c47-d755bf1563b5": Type="Image", Printer=POS-58, DataSize=9617 bytes
+2026-07-28 19:25:47.909 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:25:47.909 -04:00 [INF] [PrintEngine] Path: Image -> PrintImageAsync
+2026-07-28 19:25:47.910 -04:00 [INF] [PrintEngine] Loading image from bytes...
+2026-07-28 19:25:47.911 -04:00 [INF] [PrintEngine] Image loaded: 384x600
+2026-07-28 19:25:47.917 -04:00 [INF] [PrintEngine] PrintDocument configured: POS-58, 1 page(s)
+2026-07-28 19:25:48.024 -04:00 [DBG] [PrintEngine] Drawing page 0: src=384x600, dst=-11x-17
+2026-07-28 19:25:48.031 -04:00 [INF] [PrintEngine] PrintDocument.Print() completed
+2026-07-28 19:25:48.031 -04:00 [INF] [PrintEngine] Job "534f55cb-8d3e-4738-9c47-d755bf1563b5" (Image) DONE in 121ms
+2026-07-28 19:25:48.032 -04:00 [INF] Job "534f55cb-8d3e-4738-9c47-d755bf1563b5" completed in 152.1776ms
+2026-07-28 19:25:55.874 -04:00 [INF] GET /api/jobs/534f55cb-8d3e-4738-9c47-d755bf1563b5 responded 200 in 0ms
+2026-07-28 19:43:30.484 -04:00 [INF] PrintWorker started
+2026-07-28 19:43:30.638 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:43:35.168 -04:00 [INF] GET /api/health responded 200 in 23ms
+2026-07-28 19:43:57.275 -04:00 [DBG] Job "87265fc7-7dd8-48a3-a27a-7ae06b2050a0" enqueued. Queue depth: 1
+2026-07-28 19:43:57.277 -04:00 [INF] Print job "87265fc7-7dd8-48a3-a27a-7ae06b2050a0" created for printer 'POS-58', type '"Text"', copies 1
+2026-07-28 19:43:57.295 -04:00 [INF] POST /api/jobs responded 201 in 465ms
+2026-07-28 19:43:57.708 -04:00 [INF] Processing job "87265fc7-7dd8-48a3-a27a-7ae06b2050a0" for printer 'POS-58', type '"Text"'
+2026-07-28 19:43:57.710 -04:00 [INF] [PrintEngine] Job "87265fc7-7dd8-48a3-a27a-7ae06b2050a0": Type="Text", Printer=POS-58, DataSize=821 bytes
+2026-07-28 19:43:57.714 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:43:57.714 -04:00 [INF] [PrintEngine] Path: Raw/Text -> PrintRawAsync
+2026-07-28 19:43:57.715 -04:00 [INF] [PrintEngine] Raw copy 1/1, 821 bytes -> 'POS-58'
+2026-07-28 19:43:57.766 -04:00 [INF] [PrintEngine] RawPrinterHelper OK: Wrote 846 bytes
+2026-07-28 19:43:57.766 -04:00 [INF] [PrintEngine] Job "87265fc7-7dd8-48a3-a27a-7ae06b2050a0" (Raw) DONE in 50ms
+2026-07-28 19:43:57.767 -04:00 [INF] Job "87265fc7-7dd8-48a3-a27a-7ae06b2050a0" completed in 58.0706ms
+2026-07-28 19:44:05.335 -04:00 [INF] GET /api/jobs/87265fc7-7dd8-48a3-a27a-7ae06b2050a0 responded 200 in 1ms
+2026-07-28 19:46:22.628 -04:00 [DBG] Job "cc76a22f-3556-4d2a-b256-8a9fc7306952" enqueued. Queue depth: 1
+2026-07-28 19:46:22.628 -04:00 [INF] Print job "cc76a22f-3556-4d2a-b256-8a9fc7306952" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 19:46:22.628 -04:00 [INF] POST /api/jobs responded 201 in 609ms
+2026-07-28 19:46:22.974 -04:00 [INF] Processing job "cc76a22f-3556-4d2a-b256-8a9fc7306952" for printer 'POS-58', type '"Pdf"'
+2026-07-28 19:46:22.974 -04:00 [INF] [PrintEngine] Job "cc76a22f-3556-4d2a-b256-8a9fc7306952": Type="Pdf", Printer=POS-58, DataSize=604 bytes
+2026-07-28 19:46:22.975 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:46:22.975 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 19:46:22.977 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 19:46:23.014 -04:00 [INF] [PrintEngine] PDF text extracted: 30 chars
+2026-07-28 19:46:23.014 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 19:46:23.044 -04:00 [INF] [PrintEngine] Job "cc76a22f-3556-4d2a-b256-8a9fc7306952" (PDF) DONE in 66ms
+2026-07-28 19:46:23.044 -04:00 [INF] Job "cc76a22f-3556-4d2a-b256-8a9fc7306952" completed in 70.2972ms
+2026-07-28 19:46:32.674 -04:00 [INF] GET /api/jobs/cc76a22f-3556-4d2a-b256-8a9fc7306952 responded 200 in 0ms
+2026-07-28 19:48:13.389 -04:00 [DBG] Job "e0fcaaf5-31bc-4a42-a34a-5a0766f4624d" enqueued. Queue depth: 1
+2026-07-28 19:48:13.390 -04:00 [INF] Print job "e0fcaaf5-31bc-4a42-a34a-5a0766f4624d" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 19:48:13.390 -04:00 [INF] POST /api/jobs responded 201 in 398ms
+2026-07-28 19:48:13.987 -04:00 [INF] Processing job "e0fcaaf5-31bc-4a42-a34a-5a0766f4624d" for printer 'POS-58', type '"Pdf"'
+2026-07-28 19:48:13.988 -04:00 [INF] [PrintEngine] Job "e0fcaaf5-31bc-4a42-a34a-5a0766f4624d": Type="Pdf", Printer=POS-58, DataSize=812 bytes
+2026-07-28 19:48:13.990 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:48:13.990 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 19:48:13.990 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 19:48:13.996 -04:00 [INF] [PrintEngine] PDF text extracted: 149 chars
+2026-07-28 19:48:13.996 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 19:48:14.038 -04:00 [INF] [PrintEngine] Job "e0fcaaf5-31bc-4a42-a34a-5a0766f4624d" (PDF) DONE in 47ms
+2026-07-28 19:48:14.038 -04:00 [INF] Job "e0fcaaf5-31bc-4a42-a34a-5a0766f4624d" completed in 50.3692ms
+2026-07-28 19:48:23.433 -04:00 [INF] GET /api/jobs/e0fcaaf5-31bc-4a42-a34a-5a0766f4624d responded 200 in 0ms
+2026-07-28 19:50:16.384 -04:00 [INF] PrintWorker started
+2026-07-28 19:50:16.501 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-28 19:50:21.432 -04:00 [INF] GET /api/health responded 200 in 19ms
+2026-07-28 19:50:49.213 -04:00 [DBG] Job "b462051c-9523-4c30-ae26-3f870b7c58f2" enqueued. Queue depth: 1
+2026-07-28 19:50:49.215 -04:00 [INF] Print job "b462051c-9523-4c30-ae26-3f870b7c58f2" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 19:50:49.228 -04:00 [INF] POST /api/jobs responded 201 in 487ms
+2026-07-28 19:50:49.667 -04:00 [INF] Processing job "b462051c-9523-4c30-ae26-3f870b7c58f2" for printer 'POS-58', type '"Pdf"'
+2026-07-28 19:50:49.670 -04:00 [INF] [PrintEngine] Job "b462051c-9523-4c30-ae26-3f870b7c58f2": Type="Pdf", Printer=POS-58, DataSize=812 bytes
+2026-07-28 19:50:49.677 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:50:49.677 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 19:50:49.678 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 19:50:49.691 -04:00 [INF] [PrintEngine] PDF text extracted: 149 chars
+2026-07-28 19:50:49.691 -04:00 [INF] [PrintEngine] PDF text content: 'TIENDAS DOMINICANAS S.A.S.\nRNC: 230-123456-7\nFactura No: 00001234\nFecha: 28/07/2026\nCafe Americano x2 - RD.00\nCroissant x1 - RD.00\nTOTAL: RD.00'
+2026-07-28 19:50:49.691 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 19:50:49.751 -04:00 [INF] [PrintEngine] Job "b462051c-9523-4c30-ae26-3f870b7c58f2" (PDF) DONE in 72ms
+2026-07-28 19:50:49.751 -04:00 [INF] Job "b462051c-9523-4c30-ae26-3f870b7c58f2" completed in 83.5575ms
+2026-07-28 19:50:57.269 -04:00 [INF] GET /api/jobs/b462051c-9523-4c30-ae26-3f870b7c58f2 responded 200 in 1ms
+2026-07-28 19:52:25.016 -04:00 [DBG] Job "08e0878b-1e11-425f-89df-4fbac278c54a" enqueued. Queue depth: 1
+2026-07-28 19:52:25.017 -04:00 [INF] Print job "08e0878b-1e11-425f-89df-4fbac278c54a" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 19:52:25.017 -04:00 [INF] POST /api/jobs responded 201 in 455ms
+2026-07-28 19:52:25.529 -04:00 [INF] Processing job "08e0878b-1e11-425f-89df-4fbac278c54a" for printer 'POS-58', type '"Pdf"'
+2026-07-28 19:52:25.531 -04:00 [INF] [PrintEngine] Job "08e0878b-1e11-425f-89df-4fbac278c54a": Type="Pdf", Printer=POS-58, DataSize=55913 bytes
+2026-07-28 19:52:25.534 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:52:25.534 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 19:52:25.534 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 19:52:25.553 -04:00 [INF] [PrintEngine] PDF text extracted: 608 chars
+2026-07-28 19:52:25.553 -04:00 [INF] [PrintEngine] PDF text content: 'TIENDAS DOMINICANAS\nRNC: 11111111111\nFACTURA ELECTRÓNICA DE VENTA\nNo. 9\nFecha: 2026-07-28 Hora: 07:52:24 p.m.\nCliente: CLIENTE GENÉRICO\nRNC/Cédula: 11111111111\nTeléfono: 8492608787\nForma de Pago: $10000.00\nEntrega: 2026-07-28 08:30\nDetalle Cant Precio Total\nnevera 1 10000.00 10000.00\nSubtotal: RD$ 10000.00\nDescuento: RD$ 0.00\nITBIS: RD$ 0.00\nTotal: RD$ 10000.00\nCantidad items: 1\nRESPONSABLE DE IVA\nRÉGIMEN FISCAL: ORDINARIO\nAUTORIZACIÓN NUMERACIÓN DE FACTURACIÓN\nRANGO: FT-1 A FT-2000\nVENCE: 18/6/2025\nSoftware TIENDAS DOMINICANAS Tiendas Dominicanas\nwww.sitioempresa.com\n[QR CODE]'
+2026-07-28 19:52:25.553 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 19:52:25.591 -04:00 [INF] [PrintEngine] Job "08e0878b-1e11-425f-89df-4fbac278c54a" (PDF) DONE in 56ms
+2026-07-28 19:52:25.591 -04:00 [INF] Job "08e0878b-1e11-425f-89df-4fbac278c54a" completed in 61.4769ms
+2026-07-28 19:53:12.576 -04:00 [DBG] Job "0d911781-a309-42d9-b2f8-a96366a2a52c" enqueued. Queue depth: 1
+2026-07-28 19:53:12.576 -04:00 [INF] Print job "0d911781-a309-42d9-b2f8-a96366a2a52c" created for printer 'POS-58', type '"Pdf"', copies 1
+2026-07-28 19:53:12.577 -04:00 [INF] POST /api/jobs responded 201 in 374ms
+2026-07-28 19:53:13.032 -04:00 [INF] Processing job "0d911781-a309-42d9-b2f8-a96366a2a52c" for printer 'POS-58', type '"Pdf"'
+2026-07-28 19:53:13.033 -04:00 [INF] [PrintEngine] Job "0d911781-a309-42d9-b2f8-a96366a2a52c": Type="Pdf", Printer=POS-58, DataSize=55914 bytes
+2026-07-28 19:53:13.033 -04:00 [INF] [PrintEngine] Printer 'POS-58' exists, choosing path...
+2026-07-28 19:53:13.033 -04:00 [INF] [PrintEngine] Path: PDF -> PrintPdfAsync
+2026-07-28 19:53:13.033 -04:00 [INF] [PrintEngine] Extracting text from PDF via Docnet...
+2026-07-28 19:53:13.038 -04:00 [INF] [PrintEngine] PDF text extracted: 609 chars
+2026-07-28 19:53:13.038 -04:00 [INF] [PrintEngine] PDF text content: 'TIENDAS DOMINICANAS\nRNC: 11111111111\nFACTURA ELECTRÓNICA DE VENTA\nNo. 10\nFecha: 2026-07-28 Hora: 07:53:12 p.m.\nCliente: CLIENTE GENÉRICO\nRNC/Cédula: 11111111111\nTeléfono: 8492608787\nForma de Pago: $10000.00\nEntrega: 2026-07-28 08:30\nDetalle Cant Precio Total\nnevera 1 10000.00 10000.00\nSubtotal: RD$ 10000.00\nDescuento: RD$ 0.00\nITBIS: RD$ 0.00\nTotal: RD$ 10000.00\nCantidad items: 1\nRESPONSABLE DE IVA\nRÉGIMEN FISCAL: ORDINARIO\nAUTORIZACIÓN NUMERACIÓN DE FACTURACIÓN\nRANGO: FT-1 A FT-2000\nVENCE: 18/6/2025\nSoftware TIENDAS DOMINICANAS Tiendas Dominicanas\nwww.sitioempresa.com\n[QR CODE]'
+2026-07-28 19:53:13.038 -04:00 [INF] [PrintEngine] PDF text copy 1/1
+2026-07-28 19:53:13.065 -04:00 [INF] [PrintEngine] Job "0d911781-a309-42d9-b2f8-a96366a2a52c" (PDF) DONE in 31ms
+2026-07-28 19:53:13.065 -04:00 [INF] Job "0d911781-a309-42d9-b2f8-a96366a2a52c" completed in 32.7941ms
