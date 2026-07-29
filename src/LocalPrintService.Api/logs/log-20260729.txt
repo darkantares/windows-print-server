@@ -1,1 +1,8 @@
 2026-07-29 02:33:23.778 -04:00 [INF] PrintWorker started
+2026-07-29 02:33:24.053 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-29 03:29:31.741 -04:00 [DBG] Found 7 printers
+2026-07-29 03:29:31.767 -04:00 [INF] GET /api/printers responded 200 in 726ms
+2026-07-29 03:30:13.227 -04:00 [DBG] Found 7 printers
+2026-07-29 03:30:13.228 -04:00 [INF] GET /api/printers responded 200 in 315ms
+2026-07-29 04:07:02.029 -04:00 [INF] PrintWorker started
+2026-07-29 04:07:02.204 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
