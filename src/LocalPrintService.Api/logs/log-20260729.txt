@@ -6,3 +6,730 @@
 2026-07-29 03:30:13.228 -04:00 [INF] GET /api/printers responded 200 in 315ms
 2026-07-29 04:07:02.029 -04:00 [INF] PrintWorker started
 2026-07-29 04:07:02.204 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-29 15:12:50.315 -04:00 [INF] PrintWorker started
+2026-07-29 15:12:50.608 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-07-29 18:28:54.580 -04:00 [DBG] Found 7 printers
+2026-07-29 18:28:54.608 -04:00 [INF] GET /api/printers responded 200 in 1502ms
+2026-07-29 18:28:57.855 -04:00 [DBG] Found 7 printers
+2026-07-29 18:28:57.858 -04:00 [INF] GET /api/printers responded 200 in 704ms
+2026-07-29 18:29:08.822 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:08.823 -04:00 [INF] GET /api/printers responded 200 in 513ms
+2026-07-29 18:29:13.345 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:13.346 -04:00 [INF] GET /api/printers responded 200 in 623ms
+2026-07-29 18:29:17.842 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:17.845 -04:00 [INF] GET /api/printers responded 200 in 643ms
+2026-07-29 18:29:22.325 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:22.326 -04:00 [INF] GET /api/printers responded 200 in 608ms
+2026-07-29 18:29:34.186 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:34.187 -04:00 [INF] GET /api/printers responded 200 in 616ms
+2026-07-29 18:29:38.473 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:38.476 -04:00 [INF] GET /api/printers responded 200 in 519ms
+2026-07-29 18:29:49.818 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:49.819 -04:00 [INF] GET /api/printers responded 200 in 473ms
+2026-07-29 18:29:53.947 -04:00 [DBG] Found 7 printers
+2026-07-29 18:29:53.947 -04:00 [INF] GET /api/printers responded 200 in 515ms
+2026-07-29 18:31:04.240 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:04.241 -04:00 [INF] GET /api/printers responded 200 in 496ms
+2026-07-29 18:31:08.985 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:08.985 -04:00 [INF] GET /api/printers responded 200 in 1017ms
+2026-07-29 18:31:14.571 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:14.572 -04:00 [INF] GET /api/printers responded 200 in 632ms
+2026-07-29 18:31:19.508 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:19.508 -04:00 [INF] GET /api/printers responded 200 in 520ms
+2026-07-29 18:31:24.306 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:24.307 -04:00 [INF] GET /api/printers responded 200 in 695ms
+2026-07-29 18:31:29.318 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:29.319 -04:00 [INF] GET /api/printers responded 200 in 751ms
+2026-07-29 18:31:34.047 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:34.047 -04:00 [INF] GET /api/printers responded 200 in 516ms
+2026-07-29 18:31:38.404 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:38.404 -04:00 [INF] GET /api/printers responded 200 in 577ms
+2026-07-29 18:31:43.219 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:43.220 -04:00 [INF] GET /api/printers responded 200 in 636ms
+2026-07-29 18:31:49.142 -04:00 [DBG] Found 7 printers
+2026-07-29 18:31:49.142 -04:00 [INF] GET /api/printers responded 200 in 530ms
+2026-07-29 18:32:00.566 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:00.567 -04:00 [INF] GET /api/printers responded 200 in 427ms
+2026-07-29 18:32:12.042 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:12.042 -04:00 [INF] GET /api/printers responded 200 in 505ms
+2026-07-29 18:32:16.092 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:16.093 -04:00 [INF] GET /api/printers responded 200 in 514ms
+2026-07-29 18:32:20.006 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:20.007 -04:00 [INF] GET /api/printers responded 200 in 473ms
+2026-07-29 18:32:24.004 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:24.005 -04:00 [INF] GET /api/printers responded 200 in 468ms
+2026-07-29 18:32:35.719 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:35.720 -04:00 [INF] GET /api/printers responded 200 in 651ms
+2026-07-29 18:32:39.817 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:39.817 -04:00 [INF] GET /api/printers responded 200 in 595ms
+2026-07-29 18:32:44.192 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:44.193 -04:00 [INF] GET /api/printers responded 200 in 537ms
+2026-07-29 18:32:48.593 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:48.594 -04:00 [INF] GET /api/printers responded 200 in 582ms
+2026-07-29 18:32:53.416 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:53.417 -04:00 [INF] GET /api/printers responded 200 in 542ms
+2026-07-29 18:32:57.820 -04:00 [DBG] Found 7 printers
+2026-07-29 18:32:57.820 -04:00 [INF] GET /api/printers responded 200 in 555ms
+2026-07-29 18:33:19.130 -04:00 [DBG] Found 7 printers
+2026-07-29 18:33:19.131 -04:00 [INF] GET /api/printers responded 200 in 472ms
+2026-07-29 18:33:40.305 -04:00 [DBG] Found 7 printers
+2026-07-29 18:33:40.305 -04:00 [INF] GET /api/printers responded 200 in 486ms
+2026-07-29 18:34:01.070 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:01.070 -04:00 [INF] GET /api/printers responded 200 in 479ms
+2026-07-29 18:34:23.029 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:23.030 -04:00 [INF] GET /api/printers responded 200 in 658ms
+2026-07-29 18:34:27.556 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:27.557 -04:00 [INF] GET /api/printers responded 200 in 874ms
+2026-07-29 18:34:32.629 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:32.632 -04:00 [INF] GET /api/printers responded 200 in 976ms
+2026-07-29 18:34:37.236 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:37.236 -04:00 [INF] GET /api/printers responded 200 in 845ms
+2026-07-29 18:34:42.210 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:42.212 -04:00 [INF] GET /api/printers responded 200 in 1068ms
+2026-07-29 18:34:47.069 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:47.071 -04:00 [INF] GET /api/printers responded 200 in 882ms
+2026-07-29 18:34:52.663 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:52.664 -04:00 [INF] GET /api/printers responded 200 in 1029ms
+2026-07-29 18:34:57.316 -04:00 [DBG] Found 7 printers
+2026-07-29 18:34:57.317 -04:00 [INF] GET /api/printers responded 200 in 633ms
+2026-07-29 18:35:17.547 -04:00 [DBG] Found 7 printers
+2026-07-29 18:35:17.548 -04:00 [INF] GET /api/printers responded 200 in 1047ms
+2026-07-29 18:35:34.554 -04:00 [DBG] Found 7 printers
+2026-07-29 18:35:34.555 -04:00 [INF] GET /api/printers responded 200 in 629ms
+2026-07-29 18:35:50.515 -04:00 [DBG] Found 7 printers
+2026-07-29 18:35:50.515 -04:00 [INF] GET /api/printers responded 200 in 426ms
+2026-07-29 18:36:07.503 -04:00 [DBG] Found 7 printers
+2026-07-29 18:36:07.503 -04:00 [INF] GET /api/printers responded 200 in 473ms
+2026-07-29 18:36:24.050 -04:00 [DBG] Found 7 printers
+2026-07-29 18:36:24.050 -04:00 [INF] GET /api/printers responded 200 in 424ms
+2026-07-29 18:36:35.251 -04:00 [DBG] Found 7 printers
+2026-07-29 18:36:35.251 -04:00 [INF] GET /api/printers responded 200 in 409ms
+2026-07-29 18:36:52.417 -04:00 [DBG] Found 7 printers
+2026-07-29 18:36:52.418 -04:00 [INF] GET /api/printers responded 200 in 630ms
+2026-07-29 18:36:57.599 -04:00 [DBG] Found 7 printers
+2026-07-29 18:36:57.600 -04:00 [INF] GET /api/printers responded 200 in 1205ms
+2026-07-29 18:37:02.692 -04:00 [DBG] Found 7 printers
+2026-07-29 18:37:02.693 -04:00 [INF] GET /api/printers responded 200 in 691ms
+2026-07-29 18:37:20.133 -04:00 [DBG] Found 7 printers
+2026-07-29 18:37:20.133 -04:00 [INF] GET /api/printers responded 200 in 500ms
+2026-07-29 18:37:32.425 -04:00 [DBG] Found 7 printers
+2026-07-29 18:37:32.425 -04:00 [INF] GET /api/printers responded 200 in 729ms
+2026-07-29 18:38:55.018 -04:00 [DBG] Found 7 printers
+2026-07-29 18:38:55.019 -04:00 [INF] GET /api/printers responded 200 in 485ms
+2026-07-29 18:38:59.606 -04:00 [DBG] Found 7 printers
+2026-07-29 18:38:59.607 -04:00 [INF] GET /api/printers responded 200 in 503ms
+2026-07-29 18:39:04.085 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:04.086 -04:00 [INF] GET /api/printers responded 200 in 430ms
+2026-07-29 18:39:08.917 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:08.917 -04:00 [INF] GET /api/printers responded 200 in 667ms
+2026-07-29 18:39:15.781 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:15.782 -04:00 [INF] GET /api/printers responded 200 in 1070ms
+2026-07-29 18:39:21.921 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:21.922 -04:00 [INF] GET /api/printers responded 200 in 786ms
+2026-07-29 18:39:26.884 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:26.884 -04:00 [INF] GET /api/printers responded 200 in 547ms
+2026-07-29 18:39:31.853 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:31.854 -04:00 [INF] GET /api/printers responded 200 in 663ms
+2026-07-29 18:39:37.619 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:37.619 -04:00 [INF] GET /api/printers responded 200 in 680ms
+2026-07-29 18:39:42.464 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:42.465 -04:00 [INF] GET /api/printers responded 200 in 645ms
+2026-07-29 18:39:54.761 -04:00 [DBG] Found 7 printers
+2026-07-29 18:39:54.761 -04:00 [INF] GET /api/printers responded 200 in 502ms
+2026-07-29 18:40:00.276 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:00.277 -04:00 [INF] GET /api/printers responded 200 in 720ms
+2026-07-29 18:40:05.666 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:05.667 -04:00 [INF] GET /api/printers responded 200 in 711ms
+2026-07-29 18:40:10.599 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:10.599 -04:00 [INF] GET /api/printers responded 200 in 689ms
+2026-07-29 18:40:15.666 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:15.666 -04:00 [INF] GET /api/printers responded 200 in 898ms
+2026-07-29 18:40:20.932 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:20.933 -04:00 [INF] GET /api/printers responded 200 in 824ms
+2026-07-29 18:40:26.055 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:26.055 -04:00 [INF] GET /api/printers responded 200 in 756ms
+2026-07-29 18:40:30.750 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:30.750 -04:00 [INF] GET /api/printers responded 200 in 630ms
+2026-07-29 18:40:38.339 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:38.340 -04:00 [INF] GET /api/printers responded 200 in 1191ms
+2026-07-29 18:40:45.119 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:45.120 -04:00 [INF] GET /api/printers responded 200 in 763ms
+2026-07-29 18:40:58.841 -04:00 [DBG] Found 7 printers
+2026-07-29 18:40:58.844 -04:00 [INF] GET /api/printers responded 200 in 1529ms
+2026-07-29 18:41:04.480 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:04.480 -04:00 [INF] GET /api/printers responded 200 in 919ms
+2026-07-29 18:41:09.289 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:09.290 -04:00 [INF] GET /api/printers responded 200 in 680ms
+2026-07-29 18:41:13.978 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:13.978 -04:00 [INF] GET /api/printers responded 200 in 636ms
+2026-07-29 18:41:19.267 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:19.268 -04:00 [INF] GET /api/printers responded 200 in 807ms
+2026-07-29 18:41:24.392 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:24.393 -04:00 [INF] GET /api/printers responded 200 in 652ms
+2026-07-29 18:41:37.426 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:37.426 -04:00 [INF] GET /api/printers responded 200 in 694ms
+2026-07-29 18:41:42.309 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:42.310 -04:00 [INF] GET /api/printers responded 200 in 697ms
+2026-07-29 18:41:46.880 -04:00 [DBG] Found 7 printers
+2026-07-29 18:41:46.880 -04:00 [INF] GET /api/printers responded 200 in 615ms
+2026-07-29 18:42:08.037 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:08.041 -04:00 [INF] GET /api/printers responded 200 in 512ms
+2026-07-29 18:42:29.320 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:29.321 -04:00 [INF] GET /api/printers responded 200 in 629ms
+2026-07-29 18:42:33.683 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:33.683 -04:00 [INF] GET /api/printers responded 200 in 519ms
+2026-07-29 18:42:40.506 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:40.506 -04:00 [INF] GET /api/printers responded 200 in 507ms
+2026-07-29 18:42:47.912 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:47.912 -04:00 [INF] GET /api/printers responded 200 in 1135ms
+2026-07-29 18:42:53.623 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:53.623 -04:00 [INF] GET /api/printers responded 200 in 799ms
+2026-07-29 18:42:59.401 -04:00 [DBG] Found 7 printers
+2026-07-29 18:42:59.402 -04:00 [INF] GET /api/printers responded 200 in 913ms
+2026-07-29 18:46:48.977 -04:00 [DBG] Found 7 printers
+2026-07-29 18:46:48.977 -04:00 [INF] GET /api/printers responded 200 in 507ms
+2026-07-29 18:46:54.162 -04:00 [DBG] Found 7 printers
+2026-07-29 18:46:54.163 -04:00 [INF] GET /api/printers responded 200 in 528ms
+2026-07-29 18:46:59.035 -04:00 [DBG] Found 7 printers
+2026-07-29 18:46:59.035 -04:00 [INF] GET /api/printers responded 200 in 544ms
+2026-07-29 18:47:03.952 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:03.953 -04:00 [INF] GET /api/printers responded 200 in 588ms
+2026-07-29 18:47:08.998 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:08.998 -04:00 [INF] GET /api/printers responded 200 in 648ms
+2026-07-29 18:47:15.768 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:15.769 -04:00 [INF] GET /api/printers responded 200 in 1349ms
+2026-07-29 18:47:22.350 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:22.351 -04:00 [INF] GET /api/printers responded 200 in 1036ms
+2026-07-29 18:47:28.174 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:28.174 -04:00 [INF] GET /api/printers responded 200 in 689ms
+2026-07-29 18:47:34.206 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:34.206 -04:00 [INF] GET /api/printers responded 200 in 638ms
+2026-07-29 18:47:39.348 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:39.348 -04:00 [INF] GET /api/printers responded 200 in 650ms
+2026-07-29 18:47:44.771 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:44.771 -04:00 [INF] GET /api/printers responded 200 in 672ms
+2026-07-29 18:47:50.520 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:50.520 -04:00 [INF] GET /api/printers responded 200 in 695ms
+2026-07-29 18:47:56.681 -04:00 [DBG] Found 7 printers
+2026-07-29 18:47:56.682 -04:00 [INF] GET /api/printers responded 200 in 833ms
+2026-07-29 18:48:02.419 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:02.420 -04:00 [INF] GET /api/printers responded 200 in 1065ms
+2026-07-29 18:48:07.373 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:07.374 -04:00 [INF] GET /api/printers responded 200 in 804ms
+2026-07-29 18:48:12.705 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:12.706 -04:00 [INF] GET /api/printers responded 200 in 806ms
+2026-07-29 18:48:17.821 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:17.821 -04:00 [INF] GET /api/printers responded 200 in 713ms
+2026-07-29 18:48:23.188 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:23.188 -04:00 [INF] GET /api/printers responded 200 in 799ms
+2026-07-29 18:48:30.294 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:30.294 -04:00 [INF] GET /api/printers responded 200 in 775ms
+2026-07-29 18:48:37.519 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:37.519 -04:00 [INF] GET /api/printers responded 200 in 840ms
+2026-07-29 18:48:42.903 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:42.904 -04:00 [INF] GET /api/printers responded 200 in 766ms
+2026-07-29 18:48:48.308 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:48.309 -04:00 [INF] GET /api/printers responded 200 in 880ms
+2026-07-29 18:48:53.513 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:53.514 -04:00 [INF] GET /api/printers responded 200 in 651ms
+2026-07-29 18:48:58.107 -04:00 [DBG] Found 7 printers
+2026-07-29 18:48:58.108 -04:00 [INF] GET /api/printers responded 200 in 576ms
+2026-07-29 18:49:03.587 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:03.587 -04:00 [INF] GET /api/printers responded 200 in 868ms
+2026-07-29 18:49:08.473 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:08.474 -04:00 [INF] GET /api/printers responded 200 in 590ms
+2026-07-29 18:49:13.993 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:13.997 -04:00 [INF] GET /api/printers responded 200 in 854ms
+2026-07-29 18:49:18.458 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:18.459 -04:00 [INF] GET /api/printers responded 200 in 648ms
+2026-07-29 18:49:23.064 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:23.064 -04:00 [INF] GET /api/printers responded 200 in 609ms
+2026-07-29 18:49:29.303 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:29.303 -04:00 [INF] GET /api/printers responded 200 in 946ms
+2026-07-29 18:49:35.041 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:35.041 -04:00 [INF] GET /api/printers responded 200 in 633ms
+2026-07-29 18:49:39.848 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:39.849 -04:00 [INF] GET /api/printers responded 200 in 642ms
+2026-07-29 18:49:47.077 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:47.078 -04:00 [INF] GET /api/printers responded 200 in 699ms
+2026-07-29 18:49:53.836 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:53.836 -04:00 [INF] GET /api/printers responded 200 in 645ms
+2026-07-29 18:49:58.975 -04:00 [DBG] Found 7 printers
+2026-07-29 18:49:58.976 -04:00 [INF] GET /api/printers responded 200 in 635ms
+2026-07-29 18:50:04.387 -04:00 [DBG] Found 7 printers
+2026-07-29 18:50:04.388 -04:00 [INF] GET /api/printers responded 200 in 967ms
+2026-07-29 18:50:12.061 -04:00 [INF] POST /api/jobs responded 400 in 379ms
+2026-07-29 18:53:14.889 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:14.889 -04:00 [INF] GET /api/printers responded 200 in 543ms
+2026-07-29 18:53:19.163 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:19.163 -04:00 [INF] GET /api/printers responded 200 in 611ms
+2026-07-29 18:53:30.724 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:30.724 -04:00 [INF] GET /api/printers responded 200 in 538ms
+2026-07-29 18:53:35.178 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:35.179 -04:00 [INF] GET /api/printers responded 200 in 636ms
+2026-07-29 18:53:39.217 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:39.218 -04:00 [INF] GET /api/printers responded 200 in 608ms
+2026-07-29 18:53:43.217 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:43.218 -04:00 [INF] GET /api/printers responded 200 in 488ms
+2026-07-29 18:53:54.942 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:54.943 -04:00 [INF] GET /api/printers responded 200 in 559ms
+2026-07-29 18:53:59.765 -04:00 [DBG] Found 7 printers
+2026-07-29 18:53:59.765 -04:00 [INF] GET /api/printers responded 200 in 701ms
+2026-07-29 18:54:11.225 -04:00 [DBG] Found 7 printers
+2026-07-29 18:54:11.226 -04:00 [INF] GET /api/printers responded 200 in 564ms
+2026-07-29 18:54:15.705 -04:00 [DBG] Found 7 printers
+2026-07-29 18:54:15.705 -04:00 [INF] GET /api/printers responded 200 in 620ms
+2026-07-29 18:55:31.570 -04:00 [DBG] Found 7 printers
+2026-07-29 18:55:31.571 -04:00 [INF] GET /api/printers responded 200 in 870ms
+2026-07-29 18:55:36.426 -04:00 [DBG] Found 7 printers
+2026-07-29 18:55:36.426 -04:00 [INF] GET /api/printers responded 200 in 891ms
+2026-07-29 18:55:41.592 -04:00 [DBG] Found 7 printers
+2026-07-29 18:55:41.592 -04:00 [INF] GET /api/printers responded 200 in 642ms
+2026-07-29 18:55:46.845 -04:00 [DBG] Found 7 printers
+2026-07-29 18:55:46.845 -04:00 [INF] GET /api/printers responded 200 in 674ms
+2026-07-29 18:55:51.971 -04:00 [DBG] Found 7 printers
+2026-07-29 18:55:51.971 -04:00 [INF] GET /api/printers responded 200 in 707ms
+2026-07-29 18:55:56.880 -04:00 [DBG] Found 7 printers
+2026-07-29 18:55:56.880 -04:00 [INF] GET /api/printers responded 200 in 670ms
+2026-07-29 18:56:02.552 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:02.554 -04:00 [INF] GET /api/printers responded 200 in 1185ms
+2026-07-29 18:56:06.720 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:06.720 -04:00 [INF] GET /api/printers responded 200 in 618ms
+2026-07-29 18:56:11.844 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:11.845 -04:00 [INF] GET /api/printers responded 200 in 692ms
+2026-07-29 18:56:18.577 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:18.577 -04:00 [INF] GET /api/printers responded 200 in 677ms
+2026-07-29 18:56:30.311 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:30.312 -04:00 [INF] GET /api/printers responded 200 in 667ms
+2026-07-29 18:56:42.015 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:42.016 -04:00 [INF] GET /api/printers responded 200 in 729ms
+2026-07-29 18:56:47.070 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:47.071 -04:00 [INF] GET /api/printers responded 200 in 976ms
+2026-07-29 18:56:51.676 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:51.677 -04:00 [INF] GET /api/printers responded 200 in 913ms
+2026-07-29 18:56:56.178 -04:00 [DBG] Found 7 printers
+2026-07-29 18:56:56.179 -04:00 [INF] GET /api/printers responded 200 in 738ms
+2026-07-29 18:57:07.701 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:07.702 -04:00 [INF] GET /api/printers responded 200 in 734ms
+2026-07-29 18:57:12.183 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:12.185 -04:00 [INF] GET /api/printers responded 200 in 807ms
+2026-07-29 18:57:16.784 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:16.785 -04:00 [INF] GET /api/printers responded 200 in 632ms
+2026-07-29 18:57:21.380 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:21.381 -04:00 [INF] GET /api/printers responded 200 in 640ms
+2026-07-29 18:57:27.001 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:27.002 -04:00 [INF] GET /api/printers responded 200 in 769ms
+2026-07-29 18:57:31.496 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:31.496 -04:00 [INF] GET /api/printers responded 200 in 660ms
+2026-07-29 18:57:52.757 -04:00 [DBG] Found 7 printers
+2026-07-29 18:57:52.758 -04:00 [INF] GET /api/printers responded 200 in 668ms
+2026-07-29 18:58:13.841 -04:00 [DBG] Found 7 printers
+2026-07-29 18:58:13.842 -04:00 [INF] GET /api/printers responded 200 in 541ms
+2026-07-29 18:58:35.388 -04:00 [DBG] Found 7 printers
+2026-07-29 18:58:35.388 -04:00 [INF] GET /api/printers responded 200 in 534ms
+2026-07-29 18:58:59.010 -04:00 [DBG] Found 7 printers
+2026-07-29 18:58:59.011 -04:00 [INF] GET /api/printers responded 200 in 967ms
+2026-07-29 18:59:03.899 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:03.899 -04:00 [INF] GET /api/printers responded 200 in 659ms
+2026-07-29 18:59:08.841 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:08.842 -04:00 [INF] GET /api/printers responded 200 in 979ms
+2026-07-29 18:59:13.776 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:13.779 -04:00 [INF] GET /api/printers responded 200 in 847ms
+2026-07-29 18:59:19.618 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:19.619 -04:00 [INF] GET /api/printers responded 200 in 1060ms
+2026-07-29 18:59:25.550 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:25.551 -04:00 [INF] GET /api/printers responded 200 in 936ms
+2026-07-29 18:59:30.798 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:30.800 -04:00 [INF] GET /api/printers responded 200 in 791ms
+2026-07-29 18:59:35.772 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:35.773 -04:00 [INF] GET /api/printers responded 200 in 1205ms
+2026-07-29 18:59:51.871 -04:00 [DBG] Found 7 printers
+2026-07-29 18:59:51.871 -04:00 [INF] GET /api/printers responded 200 in 525ms
+2026-07-29 19:00:11.565 -04:00 [DBG] Found 7 printers
+2026-07-29 19:00:11.566 -04:00 [INF] GET /api/printers responded 200 in 732ms
+2026-07-29 19:00:28.985 -04:00 [DBG] Found 7 printers
+2026-07-29 19:00:28.986 -04:00 [INF] GET /api/printers responded 200 in 665ms
+2026-07-29 19:00:45.305 -04:00 [DBG] Found 7 printers
+2026-07-29 19:00:45.306 -04:00 [INF] GET /api/printers responded 200 in 459ms
+2026-07-29 19:01:01.931 -04:00 [DBG] Found 7 printers
+2026-07-29 19:01:01.931 -04:00 [INF] GET /api/printers responded 200 in 538ms
+2026-07-29 19:01:13.124 -04:00 [DBG] Found 7 printers
+2026-07-29 19:01:13.124 -04:00 [INF] GET /api/printers responded 200 in 503ms
+2026-07-29 19:01:29.965 -04:00 [DBG] Found 7 printers
+2026-07-29 19:01:29.965 -04:00 [INF] GET /api/printers responded 200 in 539ms
+2026-07-29 19:01:35.433 -04:00 [DBG] Found 7 printers
+2026-07-29 19:01:35.434 -04:00 [INF] GET /api/printers responded 200 in 1364ms
+2026-07-29 19:01:41.510 -04:00 [DBG] Found 7 printers
+2026-07-29 19:01:41.510 -04:00 [INF] GET /api/printers responded 200 in 977ms
+2026-07-29 19:01:58.221 -04:00 [DBG] Found 7 printers
+2026-07-29 19:01:58.221 -04:00 [INF] GET /api/printers responded 200 in 525ms
+2026-07-29 19:02:09.776 -04:00 [DBG] Found 7 printers
+2026-07-29 19:02:09.776 -04:00 [INF] GET /api/printers responded 200 in 475ms
+2026-07-29 19:07:10.490 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:10.503 -04:00 [INF] GET /api/printers responded 200 in 1135ms
+2026-07-29 19:07:14.908 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:14.909 -04:00 [INF] GET /api/printers responded 200 in 511ms
+2026-07-29 19:07:28.878 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:28.881 -04:00 [INF] GET /api/printers responded 200 in 1011ms
+2026-07-29 19:07:34.014 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:34.015 -04:00 [INF] GET /api/printers responded 200 in 748ms
+2026-07-29 19:07:38.900 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:38.901 -04:00 [INF] GET /api/printers responded 200 in 837ms
+2026-07-29 19:07:43.351 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:43.352 -04:00 [INF] GET /api/printers responded 200 in 637ms
+2026-07-29 19:07:55.632 -04:00 [DBG] Found 7 printers
+2026-07-29 19:07:55.632 -04:00 [INF] GET /api/printers responded 200 in 821ms
+2026-07-29 19:08:00.776 -04:00 [DBG] Found 7 printers
+2026-07-29 19:08:00.777 -04:00 [INF] GET /api/printers responded 200 in 852ms
+2026-07-29 19:08:12.542 -04:00 [DBG] Found 7 printers
+2026-07-29 19:08:12.543 -04:00 [INF] GET /api/printers responded 200 in 852ms
+2026-07-29 19:08:17.678 -04:00 [DBG] Found 7 printers
+2026-07-29 19:08:17.679 -04:00 [INF] GET /api/printers responded 200 in 877ms
+2026-07-29 19:09:25.360 -04:00 [DBG] Found 7 printers
+2026-07-29 19:09:25.361 -04:00 [INF] GET /api/printers responded 200 in 737ms
+2026-07-29 19:09:29.301 -04:00 [DBG] Found 7 printers
+2026-07-29 19:09:29.301 -04:00 [INF] GET /api/printers responded 200 in 590ms
+2026-07-29 19:09:33.743 -04:00 [DBG] Found 7 printers
+2026-07-29 19:09:33.744 -04:00 [INF] GET /api/printers responded 200 in 714ms
+2026-07-29 19:09:38.360 -04:00 [DBG] Found 7 printers
+2026-07-29 19:09:38.362 -04:00 [INF] GET /api/printers responded 200 in 677ms
+2026-07-29 19:09:43.097 -04:00 [DBG] Found 7 printers
+2026-07-29 19:09:43.098 -04:00 [INF] GET /api/printers responded 200 in 599ms
+2026-07-29 19:10:53.716 -04:00 [DBG] Found 7 printers
+2026-07-29 19:10:53.717 -04:00 [INF] GET /api/printers responded 200 in 1428ms
+2026-07-29 19:12:37.263 -04:00 [DBG] Found 7 printers
+2026-07-29 19:12:37.264 -04:00 [INF] GET /api/printers responded 200 in 1223ms
+2026-07-29 19:12:42.696 -04:00 [DBG] Found 7 printers
+2026-07-29 19:12:42.696 -04:00 [INF] GET /api/printers responded 200 in 893ms
+2026-07-29 19:12:55.836 -04:00 [DBG] Found 7 printers
+2026-07-29 19:12:55.838 -04:00 [INF] GET /api/printers responded 200 in 936ms
+2026-07-29 19:13:01.193 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:01.197 -04:00 [INF] GET /api/printers responded 200 in 1006ms
+2026-07-29 19:13:07.236 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:07.237 -04:00 [INF] GET /api/printers responded 200 in 804ms
+2026-07-29 19:13:12.857 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:12.858 -04:00 [INF] GET /api/printers responded 200 in 879ms
+2026-07-29 19:13:24.173 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:24.174 -04:00 [INF] GET /api/printers responded 200 in 804ms
+2026-07-29 19:13:29.157 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:29.157 -04:00 [INF] GET /api/printers responded 200 in 940ms
+2026-07-29 19:13:41.622 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:41.623 -04:00 [INF] GET /api/printers responded 200 in 850ms
+2026-07-29 19:13:46.524 -04:00 [DBG] Found 7 printers
+2026-07-29 19:13:46.524 -04:00 [INF] GET /api/printers responded 200 in 733ms
+2026-07-29 19:14:55.971 -04:00 [DBG] Found 7 printers
+2026-07-29 19:14:55.972 -04:00 [INF] GET /api/printers responded 200 in 652ms
+2026-07-29 19:15:00.196 -04:00 [DBG] Found 7 printers
+2026-07-29 19:15:00.196 -04:00 [INF] GET /api/printers responded 200 in 668ms
+2026-07-29 19:15:04.931 -04:00 [DBG] Found 7 printers
+2026-07-29 19:15:04.932 -04:00 [INF] GET /api/printers responded 200 in 718ms
+2026-07-29 19:15:09.882 -04:00 [DBG] Found 7 printers
+2026-07-29 19:15:09.884 -04:00 [INF] GET /api/printers responded 200 in 1003ms
+2026-07-29 19:15:15.356 -04:00 [DBG] Found 7 printers
+2026-07-29 19:15:15.357 -04:00 [INF] GET /api/printers responded 200 in 1204ms
+2026-07-29 19:16:23.312 -04:00 [DBG] Found 7 printers
+2026-07-29 19:16:23.313 -04:00 [INF] GET /api/printers responded 200 in 605ms
+2026-07-29 19:21:34.320 -04:00 [DBG] Found 7 printers
+2026-07-29 19:21:34.321 -04:00 [INF] GET /api/printers responded 200 in 1856ms
+2026-07-29 19:21:39.395 -04:00 [DBG] Found 7 printers
+2026-07-29 19:21:39.397 -04:00 [INF] GET /api/printers responded 200 in 825ms
+2026-07-29 19:21:44.377 -04:00 [DBG] Found 7 printers
+2026-07-29 19:21:44.378 -04:00 [INF] GET /api/printers responded 200 in 1000ms
+2026-07-29 19:21:48.817 -04:00 [DBG] Found 7 printers
+2026-07-29 19:21:48.818 -04:00 [INF] GET /api/printers responded 200 in 709ms
+2026-07-29 19:21:53.871 -04:00 [DBG] Found 7 printers
+2026-07-29 19:21:53.873 -04:00 [INF] GET /api/printers responded 200 in 768ms
+2026-07-29 19:21:58.231 -04:00 [DBG] Found 7 printers
+2026-07-29 19:21:58.231 -04:00 [INF] GET /api/printers responded 200 in 570ms
+2026-07-29 19:22:05.845 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:05.845 -04:00 [INF] GET /api/printers responded 200 in 748ms
+2026-07-29 19:22:10.574 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:10.574 -04:00 [INF] GET /api/printers responded 200 in 632ms
+2026-07-29 19:22:17.989 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:17.990 -04:00 [INF] GET /api/printers responded 200 in 716ms
+2026-07-29 19:22:23.015 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:23.019 -04:00 [INF] GET /api/printers responded 200 in 870ms
+2026-07-29 19:22:27.599 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:27.600 -04:00 [INF] GET /api/printers responded 200 in 798ms
+2026-07-29 19:22:32.434 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:32.435 -04:00 [INF] GET /api/printers responded 200 in 967ms
+2026-07-29 19:22:37.813 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:37.813 -04:00 [INF] GET /api/printers responded 200 in 1189ms
+2026-07-29 19:22:42.845 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:42.846 -04:00 [INF] GET /api/printers responded 200 in 833ms
+2026-07-29 19:22:47.396 -04:00 [DBG] Found 7 printers
+2026-07-29 19:22:47.396 -04:00 [INF] GET /api/printers responded 200 in 562ms
+2026-07-29 19:23:57.347 -04:00 [DBG] Found 7 printers
+2026-07-29 19:23:57.347 -04:00 [INF] GET /api/printers responded 200 in 811ms
+2026-07-29 19:26:38.176 -04:00 [DBG] Found 7 printers
+2026-07-29 19:26:38.177 -04:00 [INF] GET /api/printers responded 200 in 562ms
+2026-07-29 19:26:42.752 -04:00 [DBG] Found 7 printers
+2026-07-29 19:26:42.753 -04:00 [INF] GET /api/printers responded 200 in 822ms
+2026-07-29 19:26:46.869 -04:00 [DBG] Found 7 printers
+2026-07-29 19:26:46.869 -04:00 [INF] GET /api/printers responded 200 in 652ms
+2026-07-29 19:26:50.899 -04:00 [DBG] Found 7 printers
+2026-07-29 19:26:50.900 -04:00 [INF] GET /api/printers responded 200 in 548ms
+2026-07-29 19:26:55.641 -04:00 [DBG] Found 7 printers
+2026-07-29 19:26:55.643 -04:00 [INF] GET /api/printers responded 200 in 883ms
+2026-07-29 19:27:00.289 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:00.289 -04:00 [INF] GET /api/printers responded 200 in 676ms
+2026-07-29 19:27:06.045 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:06.047 -04:00 [INF] GET /api/printers responded 200 in 852ms
+2026-07-29 19:27:10.694 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:10.694 -04:00 [INF] GET /api/printers responded 200 in 648ms
+2026-07-29 19:27:16.578 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:16.579 -04:00 [INF] GET /api/printers responded 200 in 1039ms
+2026-07-29 19:27:21.471 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:21.473 -04:00 [INF] GET /api/printers responded 200 in 1008ms
+2026-07-29 19:27:28.527 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:28.531 -04:00 [INF] GET /api/printers responded 200 in 1524ms
+2026-07-29 19:27:34.610 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:34.611 -04:00 [INF] GET /api/printers responded 200 in 1237ms
+2026-07-29 19:27:40.949 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:40.950 -04:00 [INF] GET /api/printers responded 200 in 1229ms
+2026-07-29 19:27:45.917 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:45.918 -04:00 [INF] GET /api/printers responded 200 in 903ms
+2026-07-29 19:27:51.308 -04:00 [DBG] Found 7 printers
+2026-07-29 19:27:51.309 -04:00 [INF] GET /api/printers responded 200 in 1095ms
+2026-07-29 19:28:59.930 -04:00 [DBG] Found 7 printers
+2026-07-29 19:28:59.931 -04:00 [INF] GET /api/printers responded 200 in 851ms
+2026-07-29 19:31:56.489 -04:00 [DBG] Found 7 printers
+2026-07-29 19:31:56.489 -04:00 [INF] GET /api/printers responded 200 in 598ms
+2026-07-29 19:32:00.500 -04:00 [DBG] Found 7 printers
+2026-07-29 19:32:00.500 -04:00 [INF] GET /api/printers responded 200 in 484ms
+2026-07-29 19:32:05.423 -04:00 [DBG] Found 7 printers
+2026-07-29 19:32:05.424 -04:00 [INF] GET /api/printers responded 200 in 438ms
+2026-07-29 19:32:10.132 -04:00 [DBG] Found 7 printers
+2026-07-29 19:32:10.132 -04:00 [INF] GET /api/printers responded 200 in 577ms
+2026-07-29 19:33:03.886 -04:00 [DBG] Found 7 printers
+2026-07-29 19:33:03.887 -04:00 [INF] GET /api/printers responded 200 in 634ms
+2026-07-29 19:33:08.024 -04:00 [DBG] Found 7 printers
+2026-07-29 19:33:08.024 -04:00 [INF] GET /api/printers responded 200 in 559ms
+2026-07-29 19:33:12.539 -04:00 [DBG] Found 7 printers
+2026-07-29 19:33:12.540 -04:00 [INF] GET /api/printers responded 200 in 429ms
+2026-07-29 19:33:16.694 -04:00 [DBG] Found 7 printers
+2026-07-29 19:33:16.694 -04:00 [INF] GET /api/printers responded 200 in 544ms
+2026-07-29 19:34:58.764 -04:00 [DBG] Found 7 printers
+2026-07-29 19:34:58.764 -04:00 [INF] GET /api/printers responded 200 in 527ms
+2026-07-29 19:35:04.461 -04:00 [DBG] Found 7 printers
+2026-07-29 19:35:04.462 -04:00 [INF] GET /api/printers responded 200 in 455ms
+2026-07-29 19:35:15.584 -04:00 [DBG] Found 7 printers
+2026-07-29 19:35:15.585 -04:00 [INF] GET /api/printers responded 200 in 625ms
+2026-07-29 19:35:29.177 -04:00 [DBG] Found 7 printers
+2026-07-29 19:35:29.178 -04:00 [INF] GET /api/printers responded 200 in 2246ms
+2026-07-29 19:35:34.686 -04:00 [DBG] Found 7 printers
+2026-07-29 19:35:34.686 -04:00 [INF] GET /api/printers responded 200 in 1228ms
+2026-07-29 19:35:40.483 -04:00 [DBG] Found 7 printers
+2026-07-29 19:35:40.484 -04:00 [INF] GET /api/printers responded 200 in 1262ms
+2026-07-29 19:35:45.833 -04:00 [DBG] Found 7 printers
+2026-07-29 19:35:45.833 -04:00 [INF] GET /api/printers responded 200 in 1006ms
+2026-07-29 19:37:02.995 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:02.996 -04:00 [INF] GET /api/printers responded 200 in 552ms
+2026-07-29 19:37:07.695 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:07.696 -04:00 [INF] GET /api/printers responded 200 in 633ms
+2026-07-29 19:37:11.658 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:11.659 -04:00 [INF] GET /api/printers responded 200 in 447ms
+2026-07-29 19:37:16.111 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:16.112 -04:00 [INF] GET /api/printers responded 200 in 757ms
+2026-07-29 19:37:20.878 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:20.878 -04:00 [INF] GET /api/printers responded 200 in 860ms
+2026-07-29 19:37:25.504 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:25.505 -04:00 [INF] GET /api/printers responded 200 in 1004ms
+2026-07-29 19:37:30.022 -04:00 [DBG] Found 7 printers
+2026-07-29 19:37:30.023 -04:00 [INF] GET /api/printers responded 200 in 842ms
+2026-07-29 19:55:38.016 -04:00 [DBG] Found 7 printers
+2026-07-29 19:55:38.016 -04:00 [INF] GET /api/printers responded 200 in 646ms
+2026-07-29 19:55:43.044 -04:00 [DBG] Found 7 printers
+2026-07-29 19:55:43.045 -04:00 [INF] GET /api/printers responded 200 in 768ms
+2026-07-29 19:55:47.736 -04:00 [DBG] Found 7 printers
+2026-07-29 19:55:47.737 -04:00 [INF] GET /api/printers responded 200 in 674ms
+2026-07-29 19:55:52.631 -04:00 [DBG] Found 7 printers
+2026-07-29 19:55:52.632 -04:00 [INF] GET /api/printers responded 200 in 831ms
+2026-07-29 19:55:57.753 -04:00 [DBG] Found 7 printers
+2026-07-29 19:55:57.754 -04:00 [INF] GET /api/printers responded 200 in 1011ms
+2026-07-29 19:56:02.544 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:02.545 -04:00 [INF] GET /api/printers responded 200 in 865ms
+2026-07-29 19:56:09.217 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:09.218 -04:00 [INF] GET /api/printers responded 200 in 632ms
+2026-07-29 19:56:15.296 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:15.297 -04:00 [INF] GET /api/printers responded 200 in 1425ms
+2026-07-29 19:56:22.812 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:22.815 -04:00 [INF] GET /api/printers responded 200 in 737ms
+2026-07-29 19:56:28.280 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:28.281 -04:00 [INF] GET /api/printers responded 200 in 1265ms
+2026-07-29 19:56:32.823 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:32.824 -04:00 [INF] GET /api/printers responded 200 in 920ms
+2026-07-29 19:56:37.389 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:37.390 -04:00 [INF] GET /api/printers responded 200 in 669ms
+2026-07-29 19:56:42.980 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:42.981 -04:00 [INF] GET /api/printers responded 200 in 670ms
+2026-07-29 19:56:48.344 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:48.344 -04:00 [INF] GET /api/printers responded 200 in 746ms
+2026-07-29 19:56:53.993 -04:00 [DBG] Found 7 printers
+2026-07-29 19:56:53.993 -04:00 [INF] GET /api/printers responded 200 in 1168ms
+2026-07-29 19:57:01.648 -04:00 [DBG] Found 7 printers
+2026-07-29 19:57:01.649 -04:00 [INF] GET /api/printers responded 200 in 2116ms
+2026-07-29 19:57:40.911 -04:00 [DBG] Found 7 printers
+2026-07-29 19:57:40.911 -04:00 [INF] GET /api/printers responded 200 in 554ms
+2026-07-29 19:57:50.570 -04:00 [DBG] Found 7 printers
+2026-07-29 19:57:50.570 -04:00 [INF] GET /api/printers responded 200 in 524ms
+2026-07-29 19:57:55.602 -04:00 [DBG] Found 7 printers
+2026-07-29 19:57:55.602 -04:00 [INF] GET /api/printers responded 200 in 640ms
+2026-07-29 19:58:01.804 -04:00 [DBG] Found 7 printers
+2026-07-29 19:58:01.805 -04:00 [INF] GET /api/printers responded 200 in 690ms
+2026-07-29 19:58:08.619 -04:00 [DBG] Found 7 printers
+2026-07-29 19:58:08.620 -04:00 [INF] GET /api/printers responded 200 in 806ms
+2026-07-29 19:58:15.375 -04:00 [DBG] Found 7 printers
+2026-07-29 19:58:15.377 -04:00 [INF] GET /api/printers responded 200 in 866ms
+2026-07-29 19:58:20.096 -04:00 [DBG] Found 7 printers
+2026-07-29 19:58:20.097 -04:00 [INF] GET /api/printers responded 200 in 814ms
+2026-07-29 19:58:25.971 -04:00 [DBG] Found 7 printers
+2026-07-29 19:58:25.972 -04:00 [INF] GET /api/printers responded 200 in 987ms
+2026-07-29 19:58:30.732 -04:00 [DBG] Found 7 printers
+2026-07-29 19:58:30.733 -04:00 [INF] GET /api/printers responded 200 in 879ms
+2026-07-29 20:03:19.336 -04:00 [DBG] Found 7 printers
+2026-07-29 20:03:19.337 -04:00 [INF] GET /api/printers responded 200 in 579ms
+2026-07-29 20:03:23.543 -04:00 [DBG] Found 7 printers
+2026-07-29 20:03:23.544 -04:00 [INF] GET /api/printers responded 200 in 609ms
+2026-07-29 20:03:27.546 -04:00 [DBG] Found 7 printers
+2026-07-29 20:03:27.547 -04:00 [INF] GET /api/printers responded 200 in 457ms
+2026-07-29 20:07:00.745 -04:00 [DBG] Found 7 printers
+2026-07-29 20:07:00.748 -04:00 [INF] GET /api/printers responded 200 in 916ms
+2026-07-29 20:07:06.602 -04:00 [DBG] Found 7 printers
+2026-07-29 20:07:06.603 -04:00 [INF] GET /api/printers responded 200 in 852ms
+2026-07-29 20:08:22.019 -04:00 [DBG] Found 7 printers
+2026-07-29 20:08:22.019 -04:00 [INF] GET /api/printers responded 200 in 899ms
+2026-07-29 20:08:46.996 -04:00 [DBG] Found 7 printers
+2026-07-29 20:08:46.996 -04:00 [INF] GET /api/printers responded 200 in 957ms
+2026-07-29 20:09:09.882 -04:00 [DBG] Found 7 printers
+2026-07-29 20:09:09.882 -04:00 [INF] GET /api/printers responded 200 in 529ms
+2026-07-29 20:09:33.033 -04:00 [DBG] Found 7 printers
+2026-07-29 20:09:33.036 -04:00 [INF] GET /api/printers responded 200 in 884ms
+2026-07-29 20:09:54.180 -04:00 [DBG] Found 7 printers
+2026-07-29 20:09:54.182 -04:00 [INF] GET /api/printers responded 200 in 610ms
+2026-07-29 20:09:58.185 -04:00 [DBG] Found 7 printers
+2026-07-29 20:09:58.185 -04:00 [INF] GET /api/printers responded 200 in 571ms
+2026-07-29 20:11:34.963 -04:00 [DBG] Found 7 printers
+2026-07-29 20:11:34.964 -04:00 [INF] GET /api/printers responded 200 in 1033ms
+2026-07-29 20:11:44.691 -04:00 [DBG] Found 7 printers
+2026-07-29 20:11:44.691 -04:00 [INF] GET /api/printers responded 200 in 754ms
+2026-07-29 20:11:57.063 -04:00 [DBG] Found 7 printers
+2026-07-29 20:11:57.064 -04:00 [INF] GET /api/printers responded 200 in 934ms
+2026-07-29 20:12:07.368 -04:00 [DBG] Found 7 printers
+2026-07-29 20:12:07.377 -04:00 [INF] GET /api/printers responded 200 in 941ms
+2026-07-29 20:12:16.876 -04:00 [DBG] Found 7 printers
+2026-07-29 20:12:16.876 -04:00 [INF] GET /api/printers responded 200 in 526ms
+2026-07-29 20:12:21.189 -04:00 [DBG] Found 7 printers
+2026-07-29 20:12:21.189 -04:00 [INF] GET /api/printers responded 200 in 682ms
+2026-07-29 20:28:11.396 -04:00 [DBG] Found 7 printers
+2026-07-29 20:28:11.397 -04:00 [INF] GET /api/printers responded 200 in 1224ms
+2026-07-29 20:28:37.551 -04:00 [DBG] Found 7 printers
+2026-07-29 20:28:37.552 -04:00 [INF] GET /api/printers responded 200 in 953ms
+2026-07-29 20:29:03.159 -04:00 [DBG] Found 7 printers
+2026-07-29 20:29:03.159 -04:00 [INF] GET /api/printers responded 200 in 716ms
+2026-07-29 20:29:30.708 -04:00 [DBG] Found 7 printers
+2026-07-29 20:29:30.709 -04:00 [INF] GET /api/printers responded 200 in 1308ms
+2026-07-29 20:29:55.507 -04:00 [DBG] Found 7 printers
+2026-07-29 20:29:55.508 -04:00 [INF] GET /api/printers responded 200 in 696ms
+2026-07-29 20:31:47.156 -04:00 [DBG] Found 7 printers
+2026-07-29 20:31:47.157 -04:00 [INF] GET /api/printers responded 200 in 739ms
+2026-07-29 21:56:16.504 -04:00 [DBG] Found 7 printers
+2026-07-29 21:56:16.508 -04:00 [INF] GET /api/printers responded 200 in 1023ms
+2026-07-29 22:11:08.289 -04:00 [DBG] Found 7 printers
+2026-07-29 22:11:08.290 -04:00 [INF] GET /api/printers responded 200 in 1015ms
+2026-07-29 22:12:15.218 -04:00 [DBG] Found 7 printers
+2026-07-29 22:12:15.218 -04:00 [INF] GET /api/printers responded 200 in 594ms
+2026-07-29 22:13:05.402 -04:00 [DBG] Found 7 printers
+2026-07-29 22:13:05.403 -04:00 [INF] GET /api/printers responded 200 in 612ms
+2026-07-29 22:13:54.268 -04:00 [DBG] Found 7 printers
+2026-07-29 22:13:54.269 -04:00 [INF] GET /api/printers responded 200 in 603ms
+2026-07-29 22:14:44.396 -04:00 [DBG] Found 7 printers
+2026-07-29 22:14:44.397 -04:00 [INF] GET /api/printers responded 200 in 767ms
+2026-07-29 22:15:34.491 -04:00 [DBG] Found 7 printers
+2026-07-29 22:15:34.492 -04:00 [INF] GET /api/printers responded 200 in 609ms
+2026-07-29 22:19:47.900 -04:00 [DBG] Found 7 printers
+2026-07-29 22:19:47.901 -04:00 [INF] GET /api/printers responded 200 in 730ms
+2026-07-29 22:20:07.111 -04:00 [DBG] Found 7 printers
+2026-07-29 22:20:07.111 -04:00 [INF] GET /api/printers responded 200 in 854ms
+2026-07-29 22:20:23.902 -04:00 [DBG] Found 7 printers
+2026-07-29 22:20:23.903 -04:00 [INF] GET /api/printers responded 200 in 730ms
+2026-07-29 22:20:41.156 -04:00 [DBG] Found 7 printers
+2026-07-29 22:20:41.156 -04:00 [INF] GET /api/printers responded 200 in 748ms
+2026-07-29 22:20:59.001 -04:00 [DBG] Found 7 printers
+2026-07-29 22:20:59.002 -04:00 [INF] GET /api/printers responded 200 in 714ms
+2026-07-29 22:21:17.263 -04:00 [DBG] Found 7 printers
+2026-07-29 22:21:17.264 -04:00 [INF] GET /api/printers responded 200 in 1154ms
+2026-07-29 22:21:28.360 -04:00 [DBG] Found 7 printers
+2026-07-29 22:21:28.360 -04:00 [INF] GET /api/printers responded 200 in 729ms
+2026-07-29 22:21:48.156 -04:00 [DBG] Found 7 printers
+2026-07-29 22:21:48.157 -04:00 [INF] GET /api/printers responded 200 in 909ms
+2026-07-29 22:21:53.307 -04:00 [DBG] Found 7 printers
+2026-07-29 22:21:53.308 -04:00 [INF] GET /api/printers responded 200 in 780ms
+2026-07-29 22:21:58.774 -04:00 [DBG] Found 7 printers
+2026-07-29 22:21:58.775 -04:00 [INF] GET /api/printers responded 200 in 684ms
+2026-07-29 22:24:10.667 -04:00 [DBG] Found 7 printers
+2026-07-29 22:24:10.668 -04:00 [INF] GET /api/printers responded 200 in 1009ms
+2026-07-29 22:25:18.773 -04:00 [DBG] Found 7 printers
+2026-07-29 22:25:18.775 -04:00 [INF] GET /api/printers responded 200 in 1646ms
+2026-07-29 22:26:24.602 -04:00 [DBG] Found 7 printers
+2026-07-29 22:26:24.603 -04:00 [INF] GET /api/printers responded 200 in 850ms
+2026-07-29 22:26:47.665 -04:00 [DBG] Found 7 printers
+2026-07-29 22:26:47.665 -04:00 [INF] GET /api/printers responded 200 in 1260ms
+2026-07-29 22:27:04.909 -04:00 [DBG] Found 7 printers
+2026-07-29 22:27:04.910 -04:00 [INF] GET /api/printers responded 200 in 797ms
+2026-07-29 22:27:26.883 -04:00 [DBG] Found 7 printers
+2026-07-29 22:27:26.884 -04:00 [INF] GET /api/printers responded 200 in 1810ms
+2026-07-29 22:27:38.354 -04:00 [DBG] Found 7 printers
+2026-07-29 22:27:38.355 -04:00 [INF] GET /api/printers responded 200 in 2591ms
+2026-07-29 22:27:50.456 -04:00 [DBG] Found 7 printers
+2026-07-29 22:27:50.456 -04:00 [INF] GET /api/printers responded 200 in 950ms
+2026-07-29 22:27:55.339 -04:00 [DBG] Found 7 printers
+2026-07-29 22:27:55.340 -04:00 [INF] GET /api/printers responded 200 in 726ms
+2026-07-29 22:28:01.232 -04:00 [DBG] Found 7 printers
+2026-07-29 22:28:01.232 -04:00 [INF] GET /api/printers responded 200 in 1072ms
+2026-07-29 22:31:01.085 -04:00 [DBG] Found 7 printers
+2026-07-29 22:31:01.086 -04:00 [INF] GET /api/printers responded 200 in 1017ms
+2026-07-29 22:31:14.317 -04:00 [DBG] Found 7 printers
+2026-07-29 22:31:14.317 -04:00 [INF] GET /api/printers responded 200 in 1071ms
+2026-07-29 22:31:28.279 -04:00 [DBG] Found 7 printers
+2026-07-29 22:31:28.280 -04:00 [INF] GET /api/printers responded 200 in 1145ms
+2026-07-29 22:31:42.184 -04:00 [DBG] Found 7 printers
+2026-07-29 22:31:42.185 -04:00 [INF] GET /api/printers responded 200 in 1023ms
+2026-07-29 22:31:56.353 -04:00 [DBG] Found 7 printers
+2026-07-29 22:31:56.354 -04:00 [INF] GET /api/printers responded 200 in 1008ms
+2026-07-29 22:32:10.292 -04:00 [DBG] Found 7 printers
+2026-07-29 22:32:10.293 -04:00 [INF] GET /api/printers responded 200 in 1218ms
+2026-07-29 22:32:17.835 -04:00 [DBG] Found 7 printers
+2026-07-29 22:32:17.836 -04:00 [INF] GET /api/printers responded 200 in 1081ms
+2026-07-29 22:32:30.534 -04:00 [DBG] Found 7 printers
+2026-07-29 22:32:30.535 -04:00 [INF] GET /api/printers responded 200 in 862ms
+2026-07-29 22:32:38.959 -04:00 [DBG] Found 7 printers
+2026-07-29 22:32:38.961 -04:00 [INF] GET /api/printers responded 200 in 3244ms
+2026-07-29 22:32:47.188 -04:00 [DBG] Found 7 printers
+2026-07-29 22:32:47.190 -04:00 [INF] GET /api/printers responded 200 in 1243ms
+2026-07-29 22:44:06.478 -04:00 [DBG] Found 7 printers
+2026-07-29 22:44:06.479 -04:00 [INF] GET /api/printers responded 200 in 895ms
+2026-07-29 22:45:08.261 -04:00 [DBG] Found 7 printers
+2026-07-29 22:45:08.261 -04:00 [INF] GET /api/printers responded 200 in 814ms
+2026-07-29 22:46:10.319 -04:00 [DBG] Found 7 printers
+2026-07-29 22:46:10.320 -04:00 [INF] GET /api/printers responded 200 in 1116ms
+2026-07-29 22:52:35.080 -04:00 [DBG] Found 7 printers
+2026-07-29 22:52:35.081 -04:00 [INF] GET /api/printers responded 200 in 1058ms
+2026-07-29 22:53:23.023 -04:00 [DBG] Found 7 printers
+2026-07-29 22:53:23.023 -04:00 [INF] GET /api/printers responded 200 in 661ms
+2026-07-29 22:54:09.825 -04:00 [DBG] Found 7 printers
+2026-07-29 22:54:09.826 -04:00 [INF] GET /api/printers responded 200 in 680ms
+2026-07-29 22:54:56.497 -04:00 [DBG] Found 7 printers
+2026-07-29 22:54:56.497 -04:00 [INF] GET /api/printers responded 200 in 683ms
+2026-07-29 22:55:51.273 -04:00 [DBG] Found 7 printers
+2026-07-29 22:55:51.274 -04:00 [INF] GET /api/printers responded 200 in 1977ms
+2026-07-29 22:56:40.550 -04:00 [DBG] Found 7 printers
+2026-07-29 22:56:40.555 -04:00 [INF] GET /api/printers responded 200 in 917ms
+2026-07-29 22:56:50.059 -04:00 [DBG] Found 7 printers
+2026-07-29 22:56:50.060 -04:00 [INF] GET /api/printers responded 200 in 1379ms
+2026-07-29 22:57:37.069 -04:00 [DBG] Found 7 printers
+2026-07-29 22:57:37.070 -04:00 [INF] GET /api/printers responded 200 in 1680ms
+2026-07-29 22:57:42.327 -04:00 [DBG] Found 7 printers
+2026-07-29 22:57:42.328 -04:00 [INF] GET /api/printers responded 200 in 1079ms
+2026-07-29 22:57:48.405 -04:00 [DBG] Found 7 printers
+2026-07-29 22:57:48.405 -04:00 [INF] GET /api/printers responded 200 in 896ms
