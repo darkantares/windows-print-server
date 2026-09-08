@@ -14,9 +14,12 @@ UninstallDisplayIcon={app}\LocalPrintService.Api.exe
 
 [Files]
 Source: "..\src\LocalPrintService.Api\bin\Release\net8.0\win-x64\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
+Source: "..\scripts\*"; DestDir: "{app}\scripts"; Flags: ignoreversion recursesubdirs
 
 [Dirs]
 Name: "{app}\certs"; Permissions: users-modify
+Name: "{app}\scripts"; Permissions: users-modify
+Name: "{app}\logs"; Permissions: users-modify
 
 [Icons]
 Name: "{group}\Local Print Service (HTTPS)"; Filename: "https://print.local:5201"

@@ -2,8 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>CA1416</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +21,10 @@
     <ProjectReference Include="..\LocalPrintService.Application\LocalPrintService.Application.csproj" />
     <ProjectReference Include="..\LocalPrintService.Infrastructure\LocalPrintService.Infrastructure.csproj" />
     <ProjectReference Include="..\LocalPrintService.Shared\LocalPrintService.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="certs\**" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

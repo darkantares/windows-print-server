@@ -15,3 +15,21 @@ C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Appli
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\refint\LocalPrintService.Application.dll
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.pdb
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\ref\LocalPrintService.Application.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Application.deps.json
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Application.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Application.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Domain.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Shared.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Domain.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\bin\Release\net8.0\LocalPrintService.Shared.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.csproj.AssemblyReference.cache
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.AssemblyInfoInputs.cache
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.AssemblyInfo.cs
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.csproj.CoreCompileInputs.cache
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.sourcelink.json
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPri.5DBDB96C.Up2Date
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\refint\LocalPrintService.Application.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\LocalPrintService.Application.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Application\obj\Release\net8.0\ref\LocalPrintService.Application.dll

@@ -26,3 +26,32 @@ C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infra
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\refint\LocalPrintService.Infrastructure.dll
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.pdb
 C:\Users\antar\Documents\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\ref\LocalPrintService.Infrastructure.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Infrastructure.deps.json
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Infrastructure.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Infrastructure.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Application.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Domain.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Shared.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\Microsoft.Web.WebView2.Core.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Domain.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Shared.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\LocalPrintService.Application.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\Microsoft.Web.WebView2.Core.xml
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\bin\Release\net8.0\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.AssemblyInfo.cs
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.sourcelink.json
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPri.F9198EDB.Up2Date
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\refint\LocalPrintService.Infrastructure.dll
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\LocalPrintService.Infrastructure.pdb
+C:\Users\vrodr\Documents\Nueva carpeta\PROYECTOS\LocalPrintService\src\LocalPrintService.Infrastructure\obj\Release\net8.0\ref\LocalPrintService.Infrastructure.dll

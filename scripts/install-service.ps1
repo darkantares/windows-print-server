@@ -22,8 +22,8 @@ if (-not $isAdmin) {
 
 if (-not (Test-Path $exePath)) {
     Write-Host "Publish not found. Building..." -ForegroundColor Yellow
-    $sln = Join-Path $PSScriptRoot "..\LocalPrintService.sln"
-    & dotnet publish $sln -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=false -o (Split-Path $publishDir)
+    $apiProject = Join-Path $PSScriptRoot "..\src\LocalPrintService.Api\LocalPrintService.Api.csproj"
+    & dotnet publish $apiProject -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=false -o $publishDir
     if ($LASTEXITCODE -ne 0) {
         Write-Host "Build failed!" -ForegroundColor Red
         exit 1

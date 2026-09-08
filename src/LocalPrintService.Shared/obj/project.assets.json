@@ -2,6 +2,30 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Microsoft.NET.ILLink.Tasks/8.0.30": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "LocalPrintService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LocalPrintService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LocalPrintService.Domain.dll": {}
+        }
+      }
+    },
+    "net8.0/win-x64": {
+      "Microsoft.NET.ILLink.Tasks/8.0.30": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
       "LocalPrintService.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -15,6 +39,57 @@
     }
   },
   "libraries": {
+    "Microsoft.NET.ILLink.Tasks/8.0.30": {
+      "sha512": "SfmwuZjUPBTEoBMAsXZ/hWkaEK9oL+Y/UtAx7N6RyWHfcMt9J0ExrNPuOgTyPbCXIyiTBFsxFNrPLEZNPmJcvA==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/8.0.30",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.8.0.30.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/ILLink.Tasks.deps.json",
+        "tools/net8.0/ILLink.Tasks.dll",
+        "tools/net8.0/Mono.Cecil.Mdb.dll",
+        "tools/net8.0/Mono.Cecil.Pdb.dll",
+        "tools/net8.0/Mono.Cecil.Rocks.dll",
+        "tools/net8.0/Mono.Cecil.dll",
+        "tools/net8.0/Sdk/Sdk.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/illink.deps.json",
+        "tools/net8.0/illink.dll",
+        "tools/net8.0/illink.runtimeconfig.json",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "LocalPrintService.Domain/1.0.0": {
       "type": "project",
       "path": "../LocalPrintService.Domain/LocalPrintService.Domain.csproj",
@@ -23,23 +98,24 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "LocalPrintService.Domain >= 1.0.0"
+      "LocalPrintService.Domain >= 1.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.30"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\antar\\.nuget\\packages\\": {}
+    "C:\\Users\\vrodr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
       "projectName": "LocalPrintService.Shared",
-      "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
-      "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\obj\\",
+      "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
+      "packagesPath": "C:\\Users\\vrodr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vrodr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -51,8 +127,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
-              "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+            "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+              "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
             }
           }
         }
@@ -71,6 +147,14 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.30, )",
+            "autoReferenced": true
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -82,12 +166,31 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.30, 8.0.30]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[8.0.30, 8.0.30]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.30, 8.0.30]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }
