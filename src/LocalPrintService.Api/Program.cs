@@ -13,6 +13,10 @@ var exePath = Environment.ProcessPath
     ?? Path.Combine(Directory.GetCurrentDirectory(), "LocalPrintService.Api.exe");
 var exeDir = Path.GetDirectoryName(exePath) ?? Directory.GetCurrentDirectory();
 
+// Los rutas relativas (appsettings, certs, logs) se resuelven siempre junto al exe,
+// tambien cuando el proceso corre como servicio de Windows (cwd = System32).
+Directory.SetCurrentDirectory(exeDir);
+
 // Gestión de servicio por línea de comandos (usado por el helper elevado y usuarios avanzados)
 if (args.Contains("--install") || args.Contains("--install-service"))
 {

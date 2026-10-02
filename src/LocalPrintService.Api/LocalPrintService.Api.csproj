@@ -6,6 +6,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <NoWarn>CA1416</NoWarn>
+    <ApplicationIcon>..\..\installer\printer.ico</ApplicationIcon>
+    <AssemblyTitle>Local Print Service</AssemblyTitle>
+    <Product>Local Print Service</Product>
+    <Description>Universal Print Service for Windows - Local Print Server</Description>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

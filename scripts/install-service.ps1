@@ -8,8 +8,14 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$publishDir = Join-Path $PSScriptRoot "..\src\LocalPrintService.Api\bin\Release\net8.0\win-x64\publish"
-$exePath = Join-Path $publishDir "LocalPrintService.Api.exe"
+# Rutas posibles:
+#  1) Instalacion normal: {app}\scripts\install-service.ps1 -> {app}\LocalPrintService.Api.exe
+#  2) Desarrollo:         <repo>\scripts\install-service.ps1 -> <repo>\src\...\publish\LocalPrintService.Api.exe
+$installedExe = Join-Path (Split-Path -Path $PSScriptRoot -Parent) "LocalPrintService.Api.exe"
+$publishDir = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot "..\src\LocalPrintService.Api\bin\Release\net8.0\win-x64\publish"))
+$devExe = Join-Path $publishDir "LocalPrintService.Api.exe"
+
+$exePath = if (Test-Path $installedExe) { $installedExe } else { $devExe }
 
 Write-Host "=== Local Print Service - Installation ===" -ForegroundColor Cyan
 Write-Host ""
@@ -43,8 +49,7 @@ New-Service -Name $ServiceName `
     -BinaryPathName "`"$exePath`"" `
     -DisplayName $DisplayName `
     -Description $Description `
-    -StartupType Automatic `
-    -ServiceType LocalSystem
+    -StartupType Automatic
 
 Write-Host "Configuring firewall rules..." -ForegroundColor Green
 
