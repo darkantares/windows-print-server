@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using LocalPrintService.Api;
+using LocalPrintService.Api.CloudRelay;
 using LocalPrintService.Api.Endpoints;
 using LocalPrintService.Api.Middleware;
 using LocalPrintService.Application.Extensions;
@@ -86,6 +87,11 @@ static int RunServer(string exeDir)
 
     builder.Services.Configure<PrintServiceSettings>(
         builder.Configuration.GetSection(PrintServiceSettings.SectionName));
+
+    builder.Services.Configure<CloudRelaySettings>(
+        builder.Configuration.GetSection(CloudRelaySettings.SectionName));
+
+    builder.Services.AddHostedService<CloudRelayService>();
 
     builder.Services.AddApplicationServices();
     builder.Services.AddInfrastructureServices();

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LocalPrintService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef2abb86151a519da57f2d9795c1e99fb61d60f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+686f413ccf6e6ed70832db3d2ceeb1562a943e17")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocalPrintService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocalPrintService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
