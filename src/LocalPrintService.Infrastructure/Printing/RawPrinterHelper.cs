@@ -39,8 +39,10 @@ internal static class RawPrinterHelper
 
     public static (bool Success, string Error) SendBytesToPrinter(string printerName, byte[] bytes, string docName)
     {
-        var text = Encoding.UTF8.GetString(bytes).Replace("\r\n", "\n").Replace("\n", "\r\n");
-        var cleanBytes = Encoding.UTF8.GetBytes(text);
+        // IMPORTANTE: se envian los bytes tal cual (RAW). NO decodificar a
+        // string y re-codificar — eso corrompe datos binarios ESC/POS
+        // (acentos CP858, QR, raster del logo) al pasar por un round-trip
+        // UTF-8 que sustituye los bytes invalidos por U+FFFD.
         IntPtr hPrinter = IntPtr.Zero;
         int written = 0;
 
@@ -74,7 +76,7 @@ internal static class RawPrinterHelper
                 return (false, $"StartPagePrinter failed. Win32 error: {error}");
             }
 
-            if (!WritePrinter(hPrinter, cleanBytes, cleanBytes.Length, out written))
+            if (!WritePrinter(hPrinter, bytes, bytes.Length, out written))
             {
                 int error = Marshal.GetLastWin32Error();
                 EndPagePrinter(hPrinter);

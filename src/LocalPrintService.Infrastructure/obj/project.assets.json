@@ -1383,11 +1383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj",
       "projectName": "LocalPrintService.Infrastructure",
-      "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\LocalPrintService.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\vrodr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vrodr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1402,14 +1402,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj": {
-              "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj"
+            "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj": {
+              "projectPath": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Application\\LocalPrintService.Application.csproj"
             },
-            "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
-              "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+            "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+              "projectPath": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
             },
-            "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
-              "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj"
+            "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
+              "projectPath": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj"
             }
           }
         }
@@ -1475,20 +1475,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.30, 8.0.30]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.30, 8.0.30]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[8.0.30, 8.0.30]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
