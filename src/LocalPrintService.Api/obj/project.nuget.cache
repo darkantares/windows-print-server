@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PgLXVrkeu5I=",
+  "dgSpecHash": "Q+98mhadqgQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\vrodr\\Documents\\Proyectos\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Api\\LocalPrintService.Api.csproj",
   "expectedPackageFiles": [
@@ -64,7 +64,10 @@
     "C:\\Users\\vrodr\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
     "C:\\Users\\vrodr\\.nuget\\packages\\system.serviceprocess.servicecontroller\\8.0.0\\system.serviceprocess.servicecontroller.8.0.0.nupkg.sha512",
     "C:\\Users\\vrodr\\.nuget\\packages\\system.text.encodings.web\\10.0.3\\system.text.encodings.web.10.0.3.nupkg.sha512",
-    "C:\\Users\\vrodr\\.nuget\\packages\\system.text.json\\10.0.3\\system.text.json.10.0.3.nupkg.sha512"
+    "C:\\Users\\vrodr\\.nuget\\packages\\system.text.json\\10.0.3\\system.text.json.10.0.3.nupkg.sha512",
+    "C:\\Users\\vrodr\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.30\\microsoft.netcore.app.runtime.win-x64.8.0.30.nupkg.sha512",
+    "C:\\Users\\vrodr\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.30\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.30.nupkg.sha512",
+    "C:\\Users\\vrodr\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.30\\microsoft.aspnetcore.app.runtime.win-x64.8.0.30.nupkg.sha512"
   ],
   "logs": []
 }
