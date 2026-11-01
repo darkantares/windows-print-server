@@ -3,21 +3,14 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$sln = Join-Path $PSScriptRoot "..\LocalPrintService.sln"
+$apiProject = Join-Path $PSScriptRoot "..\src\LocalPrintService.Api\LocalPrintService.Api.csproj"
 $outputDir = Join-Path $PSScriptRoot "..\src\LocalPrintService.Api\bin\$Configuration\net8.0\win-x64\publish"
 
 Write-Host "=== Local Print Service - Publish ===" -ForegroundColor Cyan
 Write-Host ""
 
-Write-Host "Building solution..." -ForegroundColor Yellow
-& dotnet build $sln -c $Configuration
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "Build failed!" -ForegroundColor Red
-    exit 1
-}
-
-Write-Host "Publishing for Windows x64..." -ForegroundColor Yellow
-& dotnet publish $sln -c $Configuration -r win-x64 --self-contained true -p:PublishSingleFile=false -p:PublishTrimmed=false -o $outputDir
+Write-Host "Publishing for Windows x64 (single-file, self-contained)..." -ForegroundColor Yellow
+& dotnet publish $apiProject -c $Configuration -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=false -o $outputDir
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Publish failed!" -ForegroundColor Red
     exit 1

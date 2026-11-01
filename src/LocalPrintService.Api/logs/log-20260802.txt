@@ -1,2 +1,10 @@
 2026-08-02 12:14:11.052 -04:00 [INF] PrintWorker started
 2026-08-02 12:14:11.222 -04:00 [WRN] Overriding address(es) 'https://localhost:5201, http://localhost:5200'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-08-02 12:21:52.210 -04:00 [WRN] As of ""2026-08-02T16:21:52.1762213+00:00"", the heartbeat has been running for ""00:00:02.1777828"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2026-08-02 15:44:41.873 -04:00 [WRN] As of ""2026-08-02T19:44:41.8463953+00:00"", the heartbeat has been running for ""00:00:01.1233644"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2026-08-02 20:03:15.136 -04:00 [DBG] Found 7 printers
+2026-08-02 20:03:15.159 -04:00 [INF] GET /api/printers responded 200 in 735ms
+2026-08-02 20:42:25.361 -04:00 [DBG] Found 7 printers
+2026-08-02 20:42:25.384 -04:00 [INF] GET /api/printers responded 200 in 683ms
+2026-08-02 22:01:50.333 -04:00 [WRN] As of ""2026-08-03T02:01:50.2723543+00:00"", the heartbeat has been running for ""00:00:02.1971540"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2026-08-02 23:43:36.839 -04:00 [WRN] As of ""2026-08-03T03:43:36.8288153+00:00"", the heartbeat has been running for ""00:00:01.4275192"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.

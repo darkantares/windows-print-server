@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj": {}
+    "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+    "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj",
         "projectName": "LocalPrintService.Domain",
-        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj",
-        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj",
+        "packagesPath": "C:\\Users\\vrodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vrodr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
+    "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
         "projectName": "LocalPrintService.Shared",
-        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
-        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\obj\\",
+        "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj",
+        "packagesPath": "C:\\Users\\vrodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vrodr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
-                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+              "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+                "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
               }
             }
           }
@@ -120,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj": {
+    "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj",
         "projectName": "LocalPrintService.Domain.Tests",
-        "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj",
-        "packagesPath": "C:\\Users\\antar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\obj\\",
+        "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\LocalPrintService.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\vrodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\tests\\LocalPrintService.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\antar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vrodr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -146,11 +146,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
-                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
+              "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj": {
+                "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Domain\\LocalPrintService.Domain.csproj"
               },
-              "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
-                "projectPath": "C:\\Users\\antar\\Documents\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj"
+              "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj": {
+                "projectPath": "C:\\Users\\vrodr\\Documents\\Nueva carpeta\\PROYECTOS\\LocalPrintService\\src\\LocalPrintService.Shared\\LocalPrintService.Shared.csproj"
               }
             }
           }
@@ -203,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\antar\\.dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
