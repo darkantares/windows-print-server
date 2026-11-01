@@ -13,7 +13,7 @@ public sealed class CloudRelaySettings
 
     public bool Enabled { get; set; }
 
-    /// <summary>URL base del backend, ej: https://api.tiendasdominicanas.com.do</summary>
+    /// <summary>URL base del backend, ej: https://api.mundeko.com</summary>
     public string BackendUrl { get; set; } = string.Empty;
 
     /// <summary>Token generado desde el POS (Impresion en la nube > Generar token).</summary>
